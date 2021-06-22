@@ -1,0 +1,1 @@
+export { default as Hero1 } from './HeroModule1/HeroModule1.Components';

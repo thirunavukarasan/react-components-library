@@ -1,5 +1,6 @@
 
-.wea-ai-electriccookertemp1 .weaverz-ai-stowe-subheading {
+
+#weaveroo-entity-module-1 .weaverz-ai-stowe-subheading {
     font-size: 20px;
     font-weight: bold;
     font-stretch: normal;
@@ -11,7 +12,7 @@
     padding-bottom: 5px;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-kitchen-img {
+  #weaveroo-entity-module-1 .weaverz-ai-kitchen-img {
     /* width: 373px;
     height: 313px; */
     width: 100%;
@@ -19,7 +20,7 @@
     object-fit: cover;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-rightkitchen-img {
+  #weaveroo-entity-module-1 .weaverz-ai-rightkitchen-img {
     /* width: 355px;
     height: 315px; */
     width: 100%;
@@ -27,9 +28,9 @@
     object-fit: cover;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-content-rightarea {}
+  #weaveroo-entity-module-1 .weaverz-ai-content-rightarea {}
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-stowe-pragraph {
+  #weaveroo-entity-module-1 .weaverz-ai-stowe-pragraph {
     font-size: 16px;
     font-weight: 400;
     font-stretch: normal;
@@ -37,18 +38,18 @@
     line-height: 1.36;
     letter-spacing: -0.42px;
     text-align: left;
-    color: #393939;
+    /* color: #393939; */
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-content-rightarea {
+  #weaveroo-entity-module-1 .weaverz-ai-content-rightarea {
     padding-right: 140px;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-content-k-rightarea {
+  #weaveroo-entity-module-1 .weaverz-ai-content-k-rightarea {
     /* padding-right: 65px; */
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-k-stowe-subheading {
+  #weaveroo-entity-module-1 .weaverz-ai-k-stowe-subheading {
     font-size: 20px;
     font-weight: bold;
     font-stretch: normal;
@@ -61,7 +62,7 @@
     max-width: 65%;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-k-stowe-pragraph {
+  #weaveroo-entity-module-1 .weaverz-ai-k-stowe-pragraph {
     font-size: 16px;
     font-weight: 400;
     font-stretch: normal;
@@ -69,20 +70,20 @@
     line-height: 1.36;
     letter-spacing: -0.42px;
     text-align: left;
-    color: #393939;
+    /* color: #393939; */
     max-width: 75%;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-section-g {
+  #weaveroo-entity-module-1 .weaverz-ai-section-g {
     background-color: #f5f5f5 !important;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-kitchenicon-img {
+  #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-img {
     width: fit-content;
     height: 45px;
   }
   
-  .wea-ai-electriccookertemp1 .weaverz-ai-kitcheniconbox {
+  #weaveroo-entity-module-1 .weaverz-ai-kitcheniconbox {
     width: 50px;
     height: 50px;
     display: flex;
@@ -93,62 +94,62 @@
   }
   
   @media(max-width:768px) {
-    .wea-ai-electriccookertemp1 .weaverz-ai-content-k-rightarea {
+    #weaveroo-entity-module-1 .weaverz-ai-content-k-rightarea {
         padding-right: 50px;
         padding-left: 30px;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-k-stowe-subheading {
+    #weaveroo-entity-module-1 .weaverz-ai-k-stowe-subheading {
         max-width: 85%;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-k-stowe-pragraph {
+    #weaveroo-entity-module-1 .weaverz-ai-k-stowe-pragraph {
         max-width: 95%;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-content-rightarea {
+    #weaveroo-entity-module-1 .weaverz-ai-content-rightarea {
         padding: 25px 40px 30px 30px;
     }
   
   }
   
   @media(max-width:480px) {
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchenicon-wrap {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-wrap {
         height: 100%;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchen-img {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchen-img {
         margin: auto;
         width: 100%;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchenicon-wrap .weaverz-ai-xs-dflex {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-wrap .weaverz-ai-xs-dflex {
         display: flex;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchenicon-wrap {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-wrap {
         height: 985px;
         padding: 25px 0 25px 0;
         background-color: #fff;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchenicon-img {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-img {
         top: 5px;
         position: relative;
     }
   
-    /* .wea-ai-electriccookertemp1 .weaverz-ai-stowe-subheading {
+    /* #weaveroo-entity-module-1 .weaverz-ai-stowe-subheading {
         padding-left: 14px;
     } */
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-content-rightarea {
+    #weaveroo-entity-module-1 .weaverz-ai-content-rightarea {
         padding-right: 30px;
         padding-top: 25px;
         padding-bottom: 30px;
         padding-left: 20px;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-content-k-rightarea {
+    #weaveroo-entity-module-1 .weaverz-ai-content-k-rightarea {
         padding-right: 20px;
         padding-bottom: 30px;
         padding-left: 20px;
@@ -161,19 +162,19 @@
         display: flex;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-content-k-rightarea .weaverz-ai-kitchenicon-img {
+    #weaveroo-entity-module-1 .weaverz-ai-content-k-rightarea .weaverz-ai-kitchenicon-img {
         margin-left: 15px;
         top: 5px;
         position: relative;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-rightkitchen-img {
+    #weaveroo-entity-module-1 .weaverz-ai-rightkitchen-img {
         position: absolute;
         top: 0;
         right: 0;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-k-stowe-subheading {
+    #weaveroo-entity-module-1 .weaverz-ai-k-stowe-subheading {
         max-width: 100%;
     }
   }
@@ -181,36 +182,31 @@
   @media(max-width:375px) {}
   
   @media(max-width:320px) {
-    .wea-ai-electriccookertemp1 .weaverz-ai-kitchen-img {
+    #weaveroo-entity-module-1 .weaverz-ai-kitchen-img {
         width: 100%;
         height: auto;
     }
   
-    .wea-ai-electriccookertemp1 .weaverz-ai-rightkitchen-img {
+    #weaveroo-entity-module-1 .weaverz-ai-rightkitchen-img {
         width: 100%;
         height: auto;
     }
   }
   
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); */
 
-.wea-ai-electriccookertemp1 .weaverz-ai-font-opensans {
+/* #weaveroo-entity-module-1 .weaverz-ai-font-opensans {
     font-family: 'Open Sans', sans-serif;
 }
 
 
-.wea-ai-electriccookertemp1 .weaverz-ai-layout-wrap {
+#weaveroo-entity-module-1 .weaverz-ai-layout-wrap {
     width: 1024px;
 }
 
-/* .wea-ai-electriccookertemp1 .weaverz-ai-img-auto {
-    max-width: inherit;
-    object-fit: contain;
-} */
-
 @media (min-width: 768px) {
-    .wea-ai-electriccookertemp1 .container {
+    #weaveroo-entity-module-1 .container {
         max-width: 100%;
     }
 
@@ -218,17 +214,17 @@
 
 
 @media (max-width: 991px) {
-    .wea-ai-electriccookertemp1 .weaverz-ai-layout-wrap {
+    #weaveroo-entity-module-1 .weaverz-ai-layout-wrap {
         width: 100%;
     }
 }
 
 @media(max-width:480px) {
-    .wea-ai-electriccookertemp1 .weaverz-ai-layout-wrap {
+    #weaveroo-entity-module-1 .weaverz-ai-layout-wrap {
         width: 100%;
 
     }
-    .wea-ai-electriccookertemp1 .weaverz-ai-layout {
+    #weaveroo-entity-module-1 .weaverz-ai-layout {
         width: 100%;
     }
-}
+} */

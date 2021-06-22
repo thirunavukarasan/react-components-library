@@ -1,8 +1,10 @@
 import React from 'react';
 import propTypes from 'prop-types';
+import './TestComp.css';
 
-export const Test = ({label}) => {
-    return(<><p className="weaverz-ai-bg-red-500">{label}</p></>);
+export const Test = (props) => {
+    const {label} = props
+    return(<><p className="test-comp">{label}</p></>);
 }
 
 Test.propTypes = {

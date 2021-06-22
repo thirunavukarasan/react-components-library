@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006  --no-manager-cache",
     "build-storybook": "build-storybook",
+    "playroom:start": "playroom start",
+    "playroom:build": "playroom build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test"
@@ -15,22 +17,40 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
     "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
     "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
+    "@storybook/theming": "^6.2.9",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-in-js-loader": "^0.1.2",
+    "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^1.6.0",
+    "playroom": "^0.25.0",
     "postcss": "^7.0.36",
+    "postcss-loader": "^4.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.0"
+    "sass": "^1.35.1",
+    "storybook-addon-playroom": "^2.1.1",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.0",
+    "sass-loader": "^10.1.1",
+    "@storybook/preset-scss": "^1.0.3"
+
   },
   "peerDependencies": {
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "postcss-loader": "^4.3.0"
   },
   "dependencies": {
-    "@craco/craco": "^6.1.2"
+    "@craco/craco": "^6.1.2",
+    "dedent": "^0.7.0",
+    "node-sass": "^6.0.0"
   }
 }

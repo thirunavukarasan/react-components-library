@@ -1,26 +1,17 @@
 import React from 'react';
-// import {storiesOf} from "@storybook/react";
 import {Test} from "../components/TestComp";
 
-// const stories = storiesOf('App Test',module);
-
-// stories.add('App',() => {
-//     return(<Test />);
-// });
 
 
 export default {
-  title: 'Weaveroo/Test',
+  title: 'Weaveroo/TestModules/Test',
   component: Test,
-//   argTypes: {
-//     label: { control: 'label' },
-//   },
 };
 
 const Template = (args) => <Test {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const Test1 = Template.bind({});
+Test1.args = {
   label: 'a',
 };
 

@@ -1,0 +1,31 @@
+.weaveroo-ai-container {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weaveroo-ai-container {
+    width: 1024px;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .weaveroo-ai-container {
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .weaveroo-ai-container {
+        width: 100%;
+    }
+}
+
+@media(max-width:480px) {
+    .weaveroo-ai-container {
+        width: 100%;
+
+    }
+    .weaveroo-ai-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,106 @@
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-fridge-ico {
+    width: 53px;
+    height: 53px;
+    margin: 0;
+    margin-right: 12px;
+    padding: 11.3px 10.1px 12.1px 10.8px;
+    border-radius: 10px;
+    border: solid 1px #848484;
+    /* background-color: #707070; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 53px;
+    min-width: 53px;
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-mainheading {
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: -0.75px;
+    text-align: left;
+    color: #333333;
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-pragraph {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    padding-top: 6px;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #333333;
+    max-width: 80%;
+
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-productimg {
+    width: 100%;
+    height: 328px;
+    margin-bottom: 12px;
+    object-fit: fill;
+    object-position: center;
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section {
+    height: 522px;
+    padding: 15px 0px 15px 0px;    
+    background-color: #ffffff;
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-icon {
+    height: 50px;
+    width: fit-content;
+    /* filter: invert(1); */
+}
+
+#weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-pl-40 {
+    padding-left: 27px;
+}
+
+
+@media(max-width:991px) {}
+
+@media(max-width:768px) {
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-productimg {
+        width: 100%;
+        height: auto;
+    }
+
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section {
+        height: 100%;
+    }
+}
+
+@media(max-width:480px) {
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-productimg {
+        width: 100%;
+        height: 100%;
+    }
+
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section {
+        padding: 0px 15px 15px 15px;
+        height: 100%;
+    }
+
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-pl-40 {
+        padding-left: 0;
+    }
+
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-FridgeSection10-pragraph {
+        max-width: 90%;
+    }
+
+    #weaveroo-DoubleEntity-module-1 .weaverz-ai-two-productwhite-Section .weaverz-ai-productitems {
+        padding-bottom: 20px;
+    }
+}
+
+@media(max-width:375px) {}
+
+@media(max-width:320px) {}

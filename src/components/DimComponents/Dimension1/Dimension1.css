@@ -1,0 +1,33 @@
+.weaveroo-dimension-module-1-img {
+    zoom: 1.4 !important;
+}
+
+#weaveroo-dimension-module-1 .weaverz-ai-red-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #ff4e00;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#weaveroo-dimension-module-1 .weaverz-ai-feature-heading {
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    padding-top: 20px;
+    line-height: 1.36;
+    letter-spacing: -0.84px;
+    text-align: center;
+    color: #3c3c3c;
+    border-bottom: 1px solid #3c3c3c;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
