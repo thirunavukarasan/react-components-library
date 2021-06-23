@@ -59,7 +59,7 @@ export const KeyfeaturesModule1 = (props) => {
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
                     <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
-                      {keyfeatures?.length
+                      {keyfeatures && keyfeatures.length
                         ? keyfeatures.map((value) => {
                             return (
                               <div className="weaverz-ai-w-4/12 weaverz-ai-overflow-hidden sm:weaverz-ai-w-4/12 weaverz-ai-my-4" key={value.key}>
@@ -115,7 +115,7 @@ export const KeyfeaturesModule1 = (props) => {
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
                     <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
-                      {keyfeatures?.length
+                      {keyfeatures && keyfeatures.length
                         ? keyfeatures.map((value) => {
                             return (
                               <div className="weaverz-ai-w-4/12 weaverz-ai-overflow-hidden sm:weaverz-ai-w-4/12 weaverz-ai-my-4">

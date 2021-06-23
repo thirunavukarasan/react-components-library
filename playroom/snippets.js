@@ -49,5 +49,12 @@ export default [
     code: dedent`
         <DimensionModule1 />
     `,
+  },
+  {
+    group: 'Test Modules',
+    name: 'Test Module-1',
+    code: dedent`
+        <Test />
+    `,
   }
 ];
