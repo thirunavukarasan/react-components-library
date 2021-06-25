@@ -44,6 +44,13 @@ export default [
     `,
   },
   {
+    group: 'Hero Modules',
+    name: 'Hero Module-2',
+    code: dedent`
+        <Hero2 />
+    `,
+  },
+  {
     group: 'Dimension Modules',
     name: 'Dimension Module-1',
     code: dedent`

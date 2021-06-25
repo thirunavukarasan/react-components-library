@@ -2,7 +2,7 @@ import React from "react";
 import {EntityModule1} from "../components/EntityComponents";
 
 export default {
-  title: "Weaveroo/EntityModules/Single/EntityModule1",
+  title: "Weaveroo/Entity Modules/Single/Entity Module1",
   component: EntityModule1,
 };
 

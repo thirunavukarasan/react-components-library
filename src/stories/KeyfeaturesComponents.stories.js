@@ -2,14 +2,14 @@ import React from "react";
 import { KeyfeaturesModule1 } from "../components/KeyfeaturesComponents";
 
 export default {
-  title: "Weaveroo/KeyfeatureModules/KeyfeatureModule1",
+  title: "Weaveroo/Keyfeatures Modules/Keyfeatures Module1",
   component: KeyfeaturesModule1,
 };
 
 const Template = (args) => <KeyfeaturesModule1 {...args} />;
 
-export const keyfeature1 = Template.bind({});
-keyfeature1.args = {
+export const Default = Template.bind({});
+Default.args = {
   centerHeading: false,
   heading: "Key Features",
   mainImage:

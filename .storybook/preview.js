@@ -9,7 +9,7 @@ export const parameters = {
     },
   },
   playroom: {
-    url: 'http://localhost:9000',
+    url: 'http://weaveroo-playroom.s3-website.ap-south-1.amazonaws.com',
   }
 }
 

@@ -6,7 +6,7 @@ module.exports = {
   outputPath: "./dist/playroom",
 
   //Optional:
-  title: "My Awesome Library",
+  title: "Weaveroo Playroom",
   // themes: './src/themes',
   snippets: './playroom/snippets.js',
   // frameComponent: './playroom/FrameComponent.js',
@@ -16,10 +16,7 @@ module.exports = {
   openBrowser: true,
   paramType: "search", // default is 'hash'
   exampleCode: `
-    <Button>
-      Hello World!
-    </Button>
-  `,
+  <Container>Welcome to weaveroo playroom add component using snippet provided Click + Icon Provided on right side menu </Container>`,
   baseUrl: "/playroom/",
 
   webpackConfig: () => ({

@@ -2,7 +2,7 @@ import React from "react";
 import {DimensionModule1} from "../components/DimComponents";
 
 export default {
-  title: "Weaveroo/DimensionModules/DimensionModule1",
+  title: "Weaveroo/Dimension Modules/Dimension Module1",
   component: DimensionModule1,
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
 import "./HeroModule1.Components.css";
-function HeroComponent1(props) {
+export const Hero1 = (props) => {
   const {
     name,
     brandName,
@@ -49,9 +49,7 @@ function HeroComponent1(props) {
   );
 }
 
-export default HeroComponent1;
-
-HeroComponent1.propTypes = {
+Hero1.propTypes = {
   name: propTypes.string.isRequired,
   brandName: propTypes.string.isRequired,
   heroImage: propTypes.string.isRequired,
@@ -62,7 +60,7 @@ HeroComponent1.propTypes = {
   logoImageSizes: propTypes.string,
 };
 
-HeroComponent1.defaultProps = {
+Hero1.defaultProps = {
   name: "Belling 444410789",
   brandName: "Belling",
   heroImage:
