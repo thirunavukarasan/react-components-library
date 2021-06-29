@@ -15,7 +15,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "build-lib": "rollup -c"
+    "build-lib": "rollup -c",
+    "build:style": "tailwindcss build -i src/style/tailwind.css -o dist/tailwind.css"
   },
   "keywords": [
     "React",
