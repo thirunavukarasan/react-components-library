@@ -10,7 +10,6 @@ export const KeyfeaturesModule1 = (props) => {
     bgColor,
     orientation,
   } = props;
-  console.log("props", props);
   const styles = {
     bg: {
       backgroundColor: `${
@@ -181,7 +180,7 @@ KeyfeaturesModule1.defaultProps = {
   centerHeading: false,
   heading: "Key Features",
   mainImage:
-    "http://weaver-ai-template-syndication-poc.s3-website.ap-south-1.amazonaws.com/static/electric_ceramic_1-ec2035f078782b3fa0bfee0e7c33882b.png",
+    "https://weaver-ai-template-syndication-poc.s3.ap-south-1.amazonaws.com/static/electric_ceramic_1-ec2035f078782b3fa0bfee0e7c33882b.png",
   keyfeatures: [
     {
       iconImage:
