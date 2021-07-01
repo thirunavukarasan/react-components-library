@@ -64,9 +64,9 @@ export const DimensionModule1 = (props) => {
             </div>
             <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-5/12 lg:weaverz-ai-w-5/12 xl:weaverz-ai-w-5/12">
               <img
-                sizes={dimImg}
+                sizes={dimSizes}
                 srcSet={dimSrcSet}
-                src={dimSizes}
+                src={dimImg}
                 alt="dimension"
                 className="weaverz-ai-dimension-img"
               />

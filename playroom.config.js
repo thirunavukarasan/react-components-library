@@ -15,8 +15,7 @@ module.exports = {
   port: 9000,
   openBrowser: true,
   paramType: "search", // default is 'hash'
-  exampleCode: `
-  <Container>Welcome to weaveroo playroom add component using snippet provided Click + Icon Provided on right side menu </Container>`,
+  exampleCode: `<Container>Welcome to weaveroo playroom add component using snippet provided Click + Icon Provided on right side menu </Container>`,
   baseUrl: "",
 
   webpackConfig: () => ({
