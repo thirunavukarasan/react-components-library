@@ -4,20 +4,18 @@ import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
 import {terser} from 'rollup-plugin-terser';
+// import cssbundle from 'rollup-plugin-css-bundle';
+// import autoprefixer from 'autoprefixer'
 
 export default [
     {
         input : './src/index.js',
         output : [
             {
-                file: 'dist/index.js',
-                format: 'cjs',
-                sourcemap: true
-            },
-            {
-                file: 'dist/index.es.js',
-                format: 'es',
-                sourcemap: true
+                dir: "dist",
+                format: "cjs",
+                sourcemap: true,
+                preserveModules: true
             }
         ],
         plugins: [
@@ -35,10 +33,15 @@ export default [
             }),
             postcss({
                 plugins:[],
-                minimize:true
+                minimize:true,
+                extract: true,
+                // modules: true
             }),
             external(),
-            // terser()
+            terser(),
+            // cssbundle({
+            //     transform: code => postcss([autoprefixer]).process(code, {})
+            // })
         ]
     }
 ]
