@@ -4,8 +4,6 @@ import external from 'rollup-plugin-peer-deps-external';
 import postcss from 'rollup-plugin-postcss';
 import commonjs from '@rollup/plugin-commonjs';
 import {terser} from 'rollup-plugin-terser';
-// import cssbundle from 'rollup-plugin-css-bundle';
-// import autoprefixer from 'autoprefixer'
 
 export default [
     {
@@ -39,9 +37,6 @@ export default [
             }),
             external(),
             terser(),
-            // cssbundle({
-            //     transform: code => postcss([autoprefixer]).process(code, {})
-            // })
         ]
     }
 ]
