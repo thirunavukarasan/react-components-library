@@ -1,0 +1,95 @@
+#weaveroo-hero-module-5 .weaverz-ai-samsung-secone {
+  height: 433px;
+  background-repeat: no-repeat;
+}
+
+.weaverz-ai-samsung-secone-circleimg {
+  background-repeat: no-repeat;
+  width: 520px;
+  height: 425px;
+  padding-top:25px;
+}
+
+.weaverz-ai-samsung-secone-productimg {
+ 
+  width: 368px;
+  height: 368px;
+}
+
+#weaveroo-hero-module-5 .weaverz-ai-samsung-secone .weaverz-ai-samsung-secone-subheading {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  padding-top: 4px;
+  text-align: center;
+  color: #000000;
+}
+
+#weaveroo-hero-module-5 .weaverz-ai-samsung-secone-titlegroup {
+  padding-top: 150px;
+}
+
+#weaveroo-hero-module-5 .weaverz-ai-samsung-secone-logo {
+  width: 224px;
+  height: 40px;
+}
+
+@media(max-width:991px) {}
+
+@media(max-width:768px) {
+  .weaverz-ai-samsung-secone-circleimg
+  {
+      width: 450px;
+  padding-top: 20px;
+  background-size: 100%;
+  }
+}
+
+@media(max-width:480px) {
+
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone-circleimg
+   {
+  width: 100%;
+  background-size: 75%;
+       height: 294px;
+}
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone
+  {
+      height: 100%;
+  }
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone-productimg
+  {
+  width: 200px;
+  margin-top: 0;
+  height: 222px;
+  margin: 0;
+  /* margin-left: 20px; */
+  position: relative;
+  top: 16px;
+  }
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone-titlegroup {
+      top: 85px;
+      padding-top: 0;
+      position: absolute;
+      right: 10px;
+  }
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone .weaverz-ai-samsung-secone-subheading
+  {
+      font-size: 13px;
+  }
+}
+
+@media(max-width:425px) {}
+
+@media(max-width:375px) {
+  #weaveroo-hero-module-5 .weaverz-ai-samsung-secone-logo
+  {
+      width: 128px;
+      height: auto;
+  }
+}
+
+@media(max-width:320px) {}

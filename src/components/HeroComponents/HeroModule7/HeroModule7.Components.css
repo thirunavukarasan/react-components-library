@@ -1,0 +1,120 @@
+#weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+    /* padding: 24px 0 0 74px; */
+    background-color: #f5f5f5;
+    /* height: 416px; */
+    /* background-image: url(img/kenwood-top-banner.png); */
+    background-repeat: no-repeat;
+    /* background-position: top right; */
+  }
+  
+  #weaveroo-hero-module-7 .weaverz-ai-img-auto {
+    max-width: inherit !important;
+    object-fit: contain;
+    /* object-position: center;
+    padding: 20px; */
+  }
+  
+  #weaveroo-hero-module-7 .weaverz-ai-top-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.9px;
+    text-align: right;
+    color: #ffffff;
+    padding-right: 35px;
+  }
+  
+  #weaveroo-hero-module-7 .weaverz-ai-img-top-kenwood-img {
+    width: 100%;
+    height: 400px;
+  }
+  
+  #weaveroo-hero-module-7 .weaverz-ai-img-top-centerlogo-img {
+    width: 230px;
+    height: 50px;
+  }
+  
+  @media (max-width: 991px) {
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section .weaverz-ai-img-auto.weaverz-ai-xs-pt-30 {
+      width: 100%;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      padding: 24px 0 0 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      background-position-x: 400px !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      height: 100%;
+      padding: 24px 0 30px 15px;
+      background-size: contain;
+      background-position-x: 250px !important;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-img-top-kenwood-img {
+      height: 200px;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-heading {
+      font-size: 20px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: -0.6px;
+      text-align: right;
+      color: #ffffff;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-xs-pt-30 {
+      padding: 40px 0 20px;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section .weaverz-ai-img-auto.weaverz-ai-xs-pt-30 {
+      height: auto;
+      margin-left: auto;
+      padding-right: 10px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      background-position-x: 210px !important;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      background-position-x: 190px !important;
+      padding: 15px 0 10px 10px;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section .weaverz-ai-img-auto.weaverz-ai-xs-pt-30 {
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-heading {
+      padding-right: 20px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    #weaveroo-hero-module-7 .weaverz-ai-img-top-kenwood-img {
+      height: 180px;
+    }
+  
+    #weaveroo-hero-module-7 .weaverz-ai-top-kenwood-section {
+      background-position-x: 150px !important;
+    }
+  }
+  
