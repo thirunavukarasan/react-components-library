@@ -100,7 +100,7 @@ Hero6.propTypes = {
 Hero6.defaultProps = {
   name: "Belling 444410789",
   brandName:"Belling",
-  bgColor: "#FFFFFF",
+  bgColor: "#2036f8",
   fontColor: "#000000",
   dominantColor: "#FFFFFF",
   heroImage:

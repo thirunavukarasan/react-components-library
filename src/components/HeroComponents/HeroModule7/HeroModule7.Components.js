@@ -35,31 +35,31 @@ export const Hero7 = (props) => {
     <>
       <section id="weaveroo-hero-module-7">
         <div
-          class="weaverz-ai-top-kenwood-section weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative"
+          className="weaverz-ai-top-kenwood-section weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative"
           style={style.vector}
         >
-          <div class="weaverz-ai-container">
-            <div class="weaverz-ai-flex weaverz-ai-items-center">
-              <div class="weaverz-ai-w-1/3">
+          <div className="weaverz-ai-container">
+            <div className="weaverz-ai-flex weaverz-ai-items-center">
+              <div className="weaverz-ai-w-1/3">
                 <img
                   src={heroImage}
                   srcSet={heroImageSrcSet}
                   sizes={heroImageSizes}
                   alt="hero img"
-                  class=" weaverz-ai-object-cover weaverz-ai-img-top-kenwood-img weaverz-ai-position-center weaverz-ai-p-2"
+                  className=" weaverz-ai-object-cover weaverz-ai-img-top-kenwood-img weaverz-ai-position-center weaverz-ai-p-2"
                 />
               </div>
-              <div class="weaverz-ai-w-1/3">
+              <div className="weaverz-ai-w-1/3">
                 <img
                   src={logoImage}
                   srcSet={logoImageSrcSet}
                   sizes={logoImageSizes}
                   alt="productLogo"
-                  class="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-xs-pt-30 weaverz-ai-img-top-centerlogo-img"
+                  className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-xs-pt-30 weaverz-ai-img-top-centerlogo-img"
                 />
               </div>
-              <div class="weaverz-ai-w-1/3">
-                <h4 class="weaverz-ai-top-heading weaverz-ai-font-opensans">
+              <div className="weaverz-ai-w-1/3">
+                <h4 className="weaverz-ai-top-heading weaverz-ai-font-opensans">
                   {name}
                   <br></br>
                   {category}
