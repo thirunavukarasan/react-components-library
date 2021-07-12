@@ -27,7 +27,6 @@ export const EntityModule1 = (props) => {
       filter: iconFilter ? `invert(1)` : ""
     }
   }
-  console.log(HeadingfontSize,ParafontSize);
   return (
     <>
       <section

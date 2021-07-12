@@ -1,0 +1,92 @@
+#weaveroo-entity-module-3  .weaverz-ai-ear-buds-Section2 {
+    height: 385px;
+    background: #fff;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-bose-ear-icon {
+    width: 63px;
+    height: 63px;
+    border: solid 1px #848484;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-icon-Img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-bose-ear-buds-left {
+    padding-left: 80px;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-bose-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #333333;
+    padding: 8px 0;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-bose-desc {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #333333;
+    width: 80%;
+}
+
+#weaveroo-entity-module-3  .weaverz-ai-bose-rightside-Img {
+    width: 448px;
+    height: 385px;
+    object-fit: contain;
+    margin: 0 ;
+    float:right;
+}
+
+@media(max-width: 480px)
+{
+    #weaveroo-entity-module-3  .weaverz-ai-ear-buds-Section2{
+        margin-top:2%;
+        min-height:60%;
+        height: auto;
+    }                                                                        
+    #weaveroo-entity-module-3  .weaverz-ai-bose-ear-buds-left {
+        padding:1rem;
+        max-width: 100%;
+
+    }
+    #weaveroo-entity-module-3  .weaverz-ai-bose-rightside-Img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        margin: 0 ;
+        padding: 1rem;
+
+    }
+    #weaveroo-entity-module-3  .weaverz-ai-bose-ear-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+@media(max-width: 320px)
+{
+    #weaveroo-entity-module-3  .weaverz-ai-bose-title{font-size:17px;}
+    #weaveroo-entity-module-3  .weaverz-ai-ear-buds-Section2 {
+        height: auto;
+
+    }
+}
+

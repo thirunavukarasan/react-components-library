@@ -1,0 +1,105 @@
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3 {
+  padding: 11px 0;
+}
+
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-fridge-ico2 {
+  width: 53px;
+  height: 53px;
+  margin: 0 0 9px 0;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: solid 1px #d8d8d8;
+  background-color: #ffffff;
+}
+
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-squarebox {
+  width: 366.1px;
+  height: 272.9px;
+  padding: 21.7px 78.6px 45.2px 48.5px;
+  background-color: #ebeced;
+  border-radius: 0 85px 0 85px;
+  margin-right: 57px;
+}
+
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-secondaryheading {
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.11;
+  letter-spacing: -0.54px;
+  text-align: left;
+  color: #333333;
+  max-width: 80%;
+  padding-bottom: 5px;
+}
+
+#weaveroo-entity-module-7
+  .weaverz-ai-FridgeSection3
+  .weaverz-ai-FridgeSection3-icon {
+  width: fit-content;
+  height: 50px;
+}
+
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-pragraph {
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: -0.42px;
+  text-align: left;
+  color: #333333;
+}
+
+#weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-productimg {
+  width: 554px;
+  height: 378px;
+}
+
+@media (max-width: 768px) {
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-productimg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3 {
+    height: 100%;
+  }
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-productimg {
+    width: 376px;
+    height: 251px;
+    margin: 0 auto;
+  }
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-squarebox {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 0px;
+    background: #fff;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-secondaryheading {
+    position: absolute;
+    top: 14px;
+    left: 80px;
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 320px) {
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-secondaryheading {
+    max-width: 100%;
+  }
+  #weaveroo-entity-module-7 .weaverz-ai-FridgeSection3-productimg {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,130 @@
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo {
+    height: 410px;
+    background-color: #333333;
+    position: relative;
+    padding: 28px 67px 0 110px;
+    /* overflow: hidden; */
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-ico {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border-radius: 10px;
+    border: solid 1px #d8d8d8;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-mainheading {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #ffeded;
+    padding-bottom: 3px;
+    padding-top: 10px;
+    max-width: 45%;
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-pragraph {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #ffeded;
+    max-width: 75%;
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo .weaverz-ai-samsung-sectwo-ico .weaverz-ai-samsung-sectwo-icon {
+    width: fit-content;
+    height: 50px;
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-productimg {
+    width: 380px;
+    height: 350px;
+}
+
+#weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-imgsec {
+    width: 420px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 20px 0 0 20px;
+}
+
+@media(max-width:991px) {
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo
+    {
+        padding: 28px 37px 0 40px;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-mainheading
+    {
+        max-width: 60%;
+    }
+}
+
+@media(max-width:768px) {}
+
+@media(max-width:480px) {
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo
+    {
+        height: 100%;
+        padding: 28px 33px 28px 33px;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-productimg
+    {
+        width: 380px;
+        height: 350px;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-pragraph
+    {
+        max-width: 95%;
+        padding-bottom: 17px;
+    }
+}
+
+
+@media(max-width:375px) {
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-mainheading
+    {
+        max-width: 75%;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-pragraph
+    {
+            max-width: 100%;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-imgsec
+    {
+        width: 320px;
+    }
+}
+
+
+@media(max-width:320px) {
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-mainheading
+    {
+        max-width: 90%;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-imgsec
+    {
+        width: 280px;
+        margin: auto;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo
+    {
+        padding: 28px 13px 0 13px;
+    }
+    #weaveroo-entity-module-9 .weaverz-ai-samsung-sectwo-productimg
+    {
+        width: 280px;   
+    }
+}

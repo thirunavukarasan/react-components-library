@@ -1,12 +1,12 @@
 import React from "react";
-import {EntityModule1} from "../components/EntityComponents/EntityModule1/EntityModule1.Components";
+import {EntityModule6} from "../components/EntityComponents/EntityModule6/EntityModule6.Components";
 
 export default {
-  title: "Weaveroo/Entity Modules/Single/Entity Module1",
-  component: EntityModule1,
+  title: "Weaveroo/Entity Modules/Single/Entity Module6",
+  component: EntityModule6,
 };
 
-const Template = (args) => <EntityModule1 {...args} />;
+const Template = (args) => <EntityModule6 {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
