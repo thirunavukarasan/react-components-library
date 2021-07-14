@@ -1,12 +1,12 @@
 import React from "react";
-import { KeyfeaturesModule1 } from "../components/KeyfeaturesComponents";
+import { KeyfeaturesModule2 } from "../components/KeyfeaturesComponents/Keyfeatures2/KeyfeaturesModule2.Components";
 
 export default {
-  title: "Weaveroo/Keyfeatures Modules/Keyfeatures Module1",
-  component: KeyfeaturesModule1,
+  title: "Weaveroo/Keyfeatures Modules/Keyfeatures Module2",
+  component: KeyfeaturesModule2,
 };
 
-const Template = (args) => <KeyfeaturesModule1 {...args} />;
+const Template = (args) => <KeyfeaturesModule2 {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
@@ -46,6 +46,5 @@ Default.args = {
       value: "Electric ceramic",
     },
   ],
-  bgColor: "#000000",
-  orientation : 'l'
+  bgColor: "ghostwhite",
 };

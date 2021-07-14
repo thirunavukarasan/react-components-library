@@ -1,0 +1,273 @@
+#weaveroo-keyfeatures-module-3 .weaverz-ai-feature-heading {
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #2c2c2c;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-feature-info {
+    margin-bottom: 10px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .xs-bg-white .weaverz-ai-img-auto {
+    width: auto;
+    height: 310px;
+}
+
+.wea-ai-fridgetemp-v1 .weaverz-ai-p-15 {
+    padding-top: 15px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-red-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #ff4e00;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+    margin-bottom: 6px;
+
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-feature-info p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #4d4d4d;
+    width: 175px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-border-right {
+    border-right: solid 1px #e8e3de;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section {
+    padding: 16px 0 19px 0;
+    background-color: #eaeaea;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-bg {
+    background-image: linear-gradient(to right, #ffffff 43%, rgba(255, 255, 255, 0) 101%);
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-p-34 {
+    padding-left: 34px;
+
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-p-15 {
+    padding-top: 15px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-box-icon {
+    width: 53px;
+    height: 54px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 10px;
+    border: solid 1px #d8d8d8;
+    background-color: #ffffff;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 53px;
+    min-width: 53px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-box-icon .weaverz-ai-img-auto {
+    width: fit-content;
+    height: 36px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-box-heading {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.36px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-box-pra {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-box-item {
+    padding-bottom: 32px;
+    padding-right: 15px;
+}
+
+#weaveroo-keyfeatures-module-3 .weaverz-ai-mb-28 {
+    margin-bottom: 28px !important;
+}
+
+
+@media(max-width:991px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dim-feature {
+        padding-left: 20px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-bottom-dimensions-section .weaverz-ai-feature-heading {
+        margin-right: 10px;
+        padding: 6px 30px 6px 10px;
+        font-size: 16px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .weaverz-ai-dim-feature {
+        padding-left: 10px !important;
+    }
+}
+
+@media(max-width:768px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-feature-heading {
+        font-size: 16px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .xs-bg-white .weaverz-ai-img-auto {
+        width: auto;
+        height: 260px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-feature-info p {
+        width: 100%;
+        padding-right: 5px;
+        word-break: break-all;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-p-34 {
+        padding-left: 14px;
+    }
+}
+
+@media(max-width:480px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-key-features {
+        background: #eaeaea;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .xs-bg-white .weaverz-ai-img-auto {
+        width: 100%;
+        height: 100%;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-feature-heading {
+        font-size: 20px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-p-34 {
+        padding-left: 20px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .weaverz-ai-dim-feature {
+        padding: 15px 20px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-xs-mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dark-grey {
+        background-color: #cdcdcd;
+        padding-top: 35px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-xs-dimendionbg-white {
+        background-color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dim-feature .weaverz-ai-xs-flex {
+        justify-content: center;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dim-feature {
+        padding: 15px 0;
+        margin-right: 8px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-xs-dimendionbg-white .weaverz-ai-xs-mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-bottom-dimensions-section {
+        height: 100%;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .xs-bg-white {
+        background-color: #fff;
+        padding: 20px 0;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-box-pra {
+        max-width: 80%;
+    }
+}
+
+@media(max-width:425px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-p-15 {
+        padding-left: 0;
+    }
+
+}
+
+@media(max-width:375px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-feature-heading {
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: -0.42px;
+        text-align: left;
+        color: #2c2c2c;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-box-item {
+        display: block;
+        padding-bottom: 20px;
+    }
+
+
+}
+
+@media(max-width:320px) {
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-dimensions-section .xs-bg-white .weaverz-ai-img-auto {
+        width: 149px;
+        height: 300px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-feature-info p {
+        font-size: 13px;
+    }
+
+    #weaveroo-keyfeatures-module-3 .weaverz-ai-box-pra {
+        max-width: 100%;
+    }
+}

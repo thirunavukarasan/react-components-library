@@ -1,0 +1,127 @@
+#weaveroo-keyfeatures-module-5 .weaverz-ai-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive {
+    height: auto;
+    padding: 45px 10px 30px 15px;
+    background-color: #3c3c3c;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive .weaverz-ai-samsung-secfive-heading {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.66px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-icon {
+    width: 53px;
+    height: 53px;
+    margin: 13px 15px 13px 1px;
+    padding: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: solid 1px #d8d8d8;
+    background-color: white;
+    justify-content: center;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-heading {
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.36px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-rightbox-item {
+    padding-left: 30px;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-pra {
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-icon .weaverz-ai-img-auto {
+    height: 42px;
+    width: fit-content;
+    /* filter: invert(70%); */
+}
+
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-item {
+    margin-bottom: 20px;
+}
+#weaveroo-keyfeatures-module-5 .weaverz-ai-rowflex
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-productimg {
+    width: 476px;
+    height: 332px;
+}
+@media(max-width:991px){
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-productimg
+    {
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-pra
+    {
+        padding-right: 5px;
+    }
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive
+    {
+        height: 100%;
+    }
+}
+@media(max-width:480px){
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive
+    {
+        height: 100%;
+        padding: 18px 18px 30px 18px;
+    }
+    .weaverz-ai-w-50
+    {
+     width: 50%;   
+    }
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-rightbox-item
+    {
+            padding-top: 15px;
+    }
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-box-pra
+    {
+        max-width: 85%;
+    }
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive-productimg
+    {
+        height: 100%;
+    }
+    #weaveroo-keyfeatures-module-5 .weaverz-ai-samsung-secfive .weaverz-ai-samsung-secfive-heading
+    {
+        padding-bottom: 18px;
+    }
+}
+@media(max-width:375px){}
+@media(max-width:320px){}

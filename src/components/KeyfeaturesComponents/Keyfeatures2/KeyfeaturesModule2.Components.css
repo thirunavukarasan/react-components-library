@@ -1,0 +1,173 @@
+#weaveroo-keyfeatures-module-2 .weaverz-ai-five-earbudsBox-Section5 {
+    background-color: ghostwhite;
+    height: 405px;
+    margin-top: 5%;
+}
+
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow {
+    position: relative;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    top: -5px;
+    right: 77px;
+    height: 0;
+    border-top: 165px solid transparent;
+    border-bottom: 165px solid transparent;
+    border-right: 165px solid whitesmoke;
+    left: auto;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-earbudBox-rightSidegroup {
+    padding: 20px 0 0;
+    padding-left: 15%;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow .weaverz-ai-arbuds-keyheading {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #2c2c2c;
+    position: absolute;
+    right: 75px;
+    top: 145px;
+    z-index: 9;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-content {
+    padding-left: 16px;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-item {
+    padding-bottom: 49px;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-icon{
+    width: 53px;
+    height: 53px;
+    padding: 0;
+    border-radius: 10px;
+    border: 1px solid #d8d8d8;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-heading {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.36px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-pra {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #4d4d4d;
+}
+#weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-icon .weaverz-ai-img-auto{
+    width: 100%;
+    height: auto;
+}
+
+#weaveroo-keyfeatures-module-2  .weaverz-ai-keyfeatures-image{
+    width: 448px;
+    height: 300px;
+    object-fit: contain;
+    margin: auto;
+  }
+  .weaverz-ai-five-earbudsBox-Section5   .weaverz-ai-key-feature-mainheading {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: -0.36px;
+    padding-top: 2%;
+    color: #4d4d4d;
+    padding-bottom: 2%;
+  }
+  
+
+@media(max-width: 991px)
+{
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow::after{right:60px;}
+}
+@media(max-width: 768px)
+{
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-five-earbudsBox-Section5{background-position-x:-185px;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow::after {right: 30px;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow .weaverz-ai-arbuds-keyheading{right:35px;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-airpods-item {padding-bottom: 10px;}
+    #weaveroo-keyfeatures-module-2  .weaverz-ai-keyfeatures-image{
+        width: 90%;
+        height: 80%;
+
+      }
+}
+@media(max-width: 480px)
+{
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow::after{display:none;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyarrow {display: none;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-five-earbudsBox-Section5 {
+        height: auto;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-five-earbudsBox-Section5{min-height: 80%; height:auto;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-earbudBox-rightSidegroup {
+        padding: 1rem;
+        padding-left: 20%;
+    }
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-keyfeatures-temp3{
+        width: 100%;
+        text-align: center;
+    }
+
+    #weaveroo-keyfeatures-module-2  .weaverz-ai-keyfeatures-image {
+        width: 95%;
+        height: 40%;
+        object-fit: contain;
+        margin: 0;
+        float: none;
+        
+      }
+
+}
+@media(max-width: 375px)
+{
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-five-earbudsBox-Section5 {
+        background-position-x: -150px;
+    }
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-earbudBox-rightSidegroup{padding:0 10px;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-earbudBox-rightSidegroup{top:330px;}
+    #weaveroo-keyfeatures-module-2 .weaverz-ai-earbudBox-rightSidegroup {
+        padding: 1rem;
+        padding-left: 20%;
+    }
+}
