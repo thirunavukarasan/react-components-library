@@ -1,0 +1,128 @@
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 {
+    height: 337px;
+    padding: 3px 25px 14px 10px;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-rowflex{
+    margin:0;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg img {
+    width: 301px;
+    height: 267px;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-featureInfo {
+    margin-bottom: 38px;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg-right img {
+    width: 313px;
+    height: 337px;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-centerFridgeDesc h4 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-featureInfo p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-red-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #ff4e00;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#weaveroo-dimension-module-3 .weaverz-ai-rowflex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+@media(max-width: 991px) {
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 {
+        height: 340px;
+    }
+}
+
+@media(max-width: 768px) {
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg img {
+        width: 100%;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg-right img
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 {
+        height: 100%;
+        padding-top:70px;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg img {
+       width:100%;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-leftFridgeImg-right img {
+        width: 100%;
+    }
+
+
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-duble-fridge-section {
+        padding: 15px 20px;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-centerFridgeDesc h4{
+        position:absolute;
+        top:20px;
+        left:130px;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-rowflex{
+        padding:0 30px;
+        margin:0 -15px;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-featureInfo{
+        width:25%;
+    }
+}
+
+@media(max-width: 425px) {}
+
+@media(max-width: 375px) {
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-centerFridgeDesc h4{
+        left:90px;
+    }
+}
+@media(max-width: 320px) {
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-featureInfo {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    #weaveroo-dimension-module-3 .weaverz-ai-FridgeSection8 .weaverz-ai-centerFridgeDesc h4 {
+        left: 60px;
+    }
+}

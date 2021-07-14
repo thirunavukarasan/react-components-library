@@ -1,12 +1,12 @@
 import React from "react";
-import {DimensionModule1} from "../components/DimComponents";
+import {DimensionModule3} from "../components/DimComponents/Dimension3/Dimension3";
 
 export default {
-  title: "Weaveroo/Dimension Modules/Dimension Module1",
-  component: DimensionModule1,
+  title: "Weaveroo/Dimension Modules/Dimension Module3",
+  component: DimensionModule3,
 };
 
-const Template = (args) => <DimensionModule1 {...args} />;
+const Template = (args) => <DimensionModule3 {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

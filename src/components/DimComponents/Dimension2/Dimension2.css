@@ -1,0 +1,120 @@
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix {
+    background-repeat: no-repeat;
+    height: 376px;
+    background-position: right;
+    position: relative;
+}
+
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 818px;
+    height: 376px;
+    background-image: linear-gradient(to right, #ffffff 70%, rgba(255, 255, 255, 0) 101%);
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-leftsamsungImg{
+    z-index:1;
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix-center{
+    z-index:1;
+}
+
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-leftsamsungImg img {
+    width: 407px;
+    height: 361px;
+    max-width: 100%;
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-featureinfo {
+    margin-bottom: 38px;
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-secsix-center h4 {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #2c2c2c;
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-featureinfo p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+#weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-red-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #1d1d1d;
+    border-bottom: 1px solid #1d1d1d;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 768px) {
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix::after{width:100%;left:-120px;}
+}
+
+@media(max-width: 480px) {
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix{
+        height:885px;
+        background-position:bottom;
+    }
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix::after{
+        display:none;
+    }
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-featureinfo {
+        margin-top: 20px;
+    }
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-leftsamsungImg img
+    {
+        width: 100%;
+        margin: auto;
+    }
+    .weaverz-ai-samsung-secsix
+    {
+        height: 880px;
+        background-position: bottom;
+        padding: 20px;
+        padding-top: 60px;
+    }
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-secsix-center h4
+    {
+            position: absolute;
+            top: 25px;
+            left: 30%;
+    }
+}
+
+@media(max-width: 425px) {}
+
+@media(max-width: 375px) {}
+@media(max-width: 320px) {
+    #weaveroo-dimension-module-2 .weaverz-ai-samsung-secsix .weaverz-ai-samsung-secsix-center h4
+    {
+            left: 20%;
+    }
+}

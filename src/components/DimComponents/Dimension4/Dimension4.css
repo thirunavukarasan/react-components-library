@@ -1,0 +1,101 @@
+#weaveroo-dimension-module-4 .weaverz-ai-duble-fridge-section {
+    padding: 20px 30px;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg img {
+    width: auto;
+    height: 310px;
+    padding: 2%;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg-right img {
+    zoom: 1.8;
+    width: 169px;
+    height: 304px;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-centerFridgeDesc h4 {
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #2c2c2c;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-centerFridgeDesc .weaverz-ai-red-text {
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: #ff4e00;
+    border-bottom: 1px solid #ff4e00;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-featureInfo {
+    width: 30%;
+}
+
+#weaveroo-dimension-module-4 .weaverz-ai-featureInfo p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #4d4d4d;
+}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 768px) {
+    #weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg img {
+        width: auto;
+        height: 260px;
+    }
+
+}
+
+@media(max-width: 480px) {
+    #weaveroo-dimension-module-4 .weaverz-ai-centerFridgeDesc {
+        display: none;
+    }
+
+    #weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg img {
+        width: auto;
+        height: 180px;
+    }
+
+    #weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg,
+    #weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg-right {
+        width: 50%;
+    }
+
+    #weaveroo-dimension-module-4 .weaverz-ai-duble-fridge-section {
+        padding: 15px 20px;
+    }
+}
+
+@media(max-width: 425px) {}
+
+@media(max-width: 375px) {
+    #weaveroo-dimension-module-4 .weaverz-ai-leftFridgeImg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(max-width: 320px) {}
