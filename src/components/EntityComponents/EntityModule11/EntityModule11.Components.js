@@ -11,7 +11,6 @@ export const EntityModule11 = (props) => {
     entityImage,
     entitySrcSet,
     entitySizes,
-    orientation,
     showCompId,
     bgColor,
     textColor,
@@ -33,6 +32,7 @@ export const EntityModule11 = (props) => {
         <div
           class="weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-samsung-secfour"
           data-comp-id={showCompId ? heading : ""}
+          style={styles.bg}
         >
           <div class="weaverz-ai-container">
             <div class="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
@@ -44,13 +44,14 @@ export const EntityModule11 = (props) => {
                      srcSet={iconSrcSet}
                      sizes={iconSizes}
                      alt={heading}
+                     style={styles.iconFilter}
                       class="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-samsung-secfour-icon"
                     />
                   </div>
-                  <h5 class="weaverz-ai-font-opensans weaverz-ai-samsung-secfour-mainheading">
+                  <h5 class="weaverz-ai-font-opensans weaverz-ai-samsung-secfour-mainheading" style={{color : textColor, fontSize: HeadingfontSize}}>
                     {heading}
                   </h5>
-                  <p class="weaverz-ai-font-opensans weaverz-ai-samsung-secfour-pragraph">
+                  <p class="weaverz-ai-font-opensans weaverz-ai-samsung-secfour-pragraph" style={{color : textColor, fontSize: ParafontSize}}>
                     {description}
                   </p>
                 </div>
@@ -77,7 +78,6 @@ EntityModule11.propTypes = {
   description: propTypes.string.isRequired,
   iconImage: propTypes.string,
   entityImage: propTypes.string,
-  orientation: propTypes.string,
   showCompId: propTypes.bool,
   iconSrcSet: propTypes.string,
   entitySrcSet: propTypes.string,
@@ -94,7 +94,6 @@ EntityModule11.defaultProps = {
   showCompId: true,
   HeadingfontSize: 20,
   ParafontSize: 16,
-  orientation: "r",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",

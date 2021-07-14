@@ -11,7 +11,6 @@ export const EntityModule7 = (props) => {
     entityImage,
     entitySrcSet,
     entitySizes,
-    orientation,
     showCompId,
     bgColor,
     textColor,
@@ -33,6 +32,7 @@ export const EntityModule7 = (props) => {
         <div
           className="weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-FridgeSection3"
           data-comp-id={showCompId ? heading : ""}
+          style={styles.bg}
         >
           <div className="weaverz-ai-container">
             <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
@@ -56,13 +56,14 @@ export const EntityModule7 = (props) => {
                      srcSet={iconSrcSet}
                      sizes={iconSizes}
                      alt={heading}
+                     style={styles.iconFilter}
                       className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection3-icon"
                     />
                   </div>
-                  <h5 className="weaverz-ai-font-opensans weaverz-ai-FridgeSection3-secondaryheading">
+                  <h5 className="weaverz-ai-font-opensans weaverz-ai-FridgeSection3-secondaryheading" style={{color : textColor, fontSize: HeadingfontSize}}>
                     {heading}
                   </h5>
-                  <p className="weaverz-ai-font-opensans weaverz-ai-FridgeSection3-pragraph">
+                  <p className="weaverz-ai-font-opensans weaverz-ai-FridgeSection3-pragraph" style={{color : textColor, fontSize: ParafontSize}}>
                     {description}
                   </p>
                 </div>
@@ -80,7 +81,6 @@ EntityModule7.propTypes = {
   description: propTypes.string.isRequired,
   iconImage: propTypes.string,
   entityImage: propTypes.string,
-  orientation: propTypes.string,
   showCompId: propTypes.bool,
   iconSrcSet: propTypes.string,
   entitySrcSet: propTypes.string,
@@ -97,7 +97,6 @@ EntityModule7.defaultProps = {
   showCompId: true,
   HeadingfontSize: 20,
   ParafontSize: 16,
-  orientation: "r",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",

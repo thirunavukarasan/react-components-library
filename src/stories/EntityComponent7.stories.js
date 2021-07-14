@@ -1,12 +1,12 @@
 import React from "react";
-import {EntityModule11} from "../components/EntityComponents/EntityModule11/EntityModule11.Components";
+import {EntityModule7} from "../components/EntityComponents/EntityModule7/EntityModule7.Components";
 
 export default {
-  title: "Weaveroo/Entity Modules/Single/Entity Module11",
-  component: EntityModule11,
+  title: "Weaveroo/Entity Modules/Single/Entity Module7",
+  component: EntityModule7,
 };
 
-const Template = (args) => <EntityModule11 {...args} />;
+const Template = (args) => <EntityModule7 {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
@@ -16,7 +16,6 @@ Default.args = {
   iconFilter: false,
   HeadingfontSize:20,
   ParafontSize : 16,
-  orientation: "r",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",

@@ -11,7 +11,6 @@ export const EntityModule6 = (props) => {
     entityImage,
     entitySrcSet,
     entitySizes,
-    orientation,
     showCompId,
     bgColor,
     textColor,
@@ -29,39 +28,48 @@ export const EntityModule6 = (props) => {
   };
   return (
     <>
-      <section id="weaveroo-entity-module-6">
-      <div className="weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-FridgeSection2" data-comp-id={showCompId ? heading : ''}>
-      <div className="weaverz-ai-container">
-        <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
-          <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
-            <div className="weaverz-ai-FridgeSection2-leftcontent">
-              <div className="weaverz-ai-FridgeSection2-fridge-ico">
-                <img
-                  src={iconImage}
-                  srcSet={iconSrcSet}
-                  sizes={iconSizes}
-                  alt={heading}
-                  className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection2-icon"
-                />
+      <section id="weaveroo-entity-module-6" >
+        <div
+          className="weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-FridgeSection2"
+          data-comp-id={showCompId ? heading : ""}
+          style={styles.bg}
+        >
+          <div className="weaverz-ai-container">
+            <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
+              <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
+                <div className="weaverz-ai-FridgeSection2-leftcontent">
+                  <div className="weaverz-ai-FridgeSection2-fridge-ico">
+                    <img
+                      src={iconImage}
+                      srcSet={iconSrcSet}
+                      sizes={iconSizes}
+                      alt={heading}
+                      style={styles.iconFilter}
+                      className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection2-icon"
+                    />
+                  </div>
+                  <h5 className="weaverz-ai-font-opensans weaverz-ai-FridgeSection2-mainheading" style={{color : textColor, fontSize: HeadingfontSize}}>
+                    {heading}
+                  </h5>
+                  <p className="weaverz-ai-font-opensans weaverz-ai-FridgeSection2-pragraph" style={{color : textColor, fontSize: ParafontSize}}>
+                    {description}
+                  </p>
+                </div>
               </div>
-              <h5 className="weaverz-ai-font-opensans weaverz-ai-FridgeSection2-mainheading">{heading}</h5>
-              <p className="weaverz-ai-font-opensans weaverz-ai-FridgeSection2-pragraph">{description}</p>
-            </div>
-          </div>
-          <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
-            <div className="weaverz-ai-FridgeSection2-imgsec">
-              <img
-                 src={entityImage}
-                 srcSet={entitySrcSet}
-                 sizes={entitySizes}
-                 alt={heading}
-                className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection2-productimg  weaverz-ai-ml-auto"
-              />
+              <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
+                <div className="weaverz-ai-FridgeSection2-imgsec">
+                  <img
+                    src={entityImage}
+                    srcSet={entitySrcSet}
+                    sizes={entitySizes}
+                    alt={heading}
+                    className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection2-productimg  weaverz-ai-ml-auto"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
       </section>
     </>
   );
@@ -72,7 +80,6 @@ EntityModule6.propTypes = {
   description: propTypes.string.isRequired,
   iconImage: propTypes.string,
   entityImage: propTypes.string,
-  orientation: propTypes.string,
   showCompId: propTypes.bool,
   iconSrcSet: propTypes.string,
   entitySrcSet: propTypes.string,
@@ -89,7 +96,6 @@ EntityModule6.defaultProps = {
   showCompId: true,
   HeadingfontSize: 20,
   ParafontSize: 16,
-  orientation: "r",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",

@@ -32,6 +32,8 @@ export const EntityModule5 = (props) => {
       <section
         id="weaveroo-entity-module-5"
         className="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout lg:weaverz-ai-mt-6 sm:weaverz-ai-my-4 weaverz-ai-my-4 weaverz-ai-p-0"
+        data-comp-id={showCompId ? heading : ""}
+        style={styles.bg}
       >
         {orientation === "r" ? (
           <div className="weaverz-ai-container">
@@ -44,16 +46,17 @@ export const EntityModule5 = (props) => {
                        srcSet={iconSrcSet}
                        sizes={iconSizes}
                        alt={heading}
+                       style={styles.iconFilter}
                       className="weaverz-ai-h-16 weaverz-ai-entity-icon"
                     />
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading">
+                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading" style={{color : textColor, fontSize: HeadingfontSize}}>
                       {heading}
                     </h4>
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description">
+                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description" style={{color : textColor, fontSize: ParafontSize}}>
                       {description}
                     </p>
                   </div>
@@ -94,16 +97,17 @@ export const EntityModule5 = (props) => {
                        srcSet={iconSrcSet}
                        sizes={iconSizes}
                        alt={heading}
+                       style={styles.iconFilter}
                       className="weaverz-ai-h-16 weaverz-ai-entity-icon"
                     />
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading">
+                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading" style={{color : textColor, fontSize: HeadingfontSize}}>
                       {heading}
                     </h4>
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description">
+                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description" style={{color : textColor, fontSize: ParafontSize}}>
                       {description}
                     </p>
                   </div>

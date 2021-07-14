@@ -11,7 +11,6 @@ export const EntityModule3 = (props) => {
     entityImage,
     entitySrcSet,
     entitySizes,
-    orientation,
     showCompId,
     bgColor,
     textColor,
@@ -33,6 +32,8 @@ export const EntityModule3 = (props) => {
         <div
           class="weaverz-ai-layout weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-ear-buds-Section2"
           data-comp-id={showCompId ? heading : ""}
+
+          style={styles.bg}
         >
           <div class="weaverz-ai-container">
             <div class="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block  weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
@@ -42,6 +43,7 @@ export const EntityModule3 = (props) => {
                   srcSet={entitySrcSet}
                   sizes={entitySizes}
                   alt={heading}
+                 
                   class="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-bose-rightside-Img"
                 />
               </div>
@@ -54,13 +56,14 @@ export const EntityModule3 = (props) => {
                        srcSet={iconSrcSet}
                        sizes={iconSizes}
                        alt={heading}
+                       style={styles.iconFilter}
                       class="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-icon-Img"
                     />
                   </div>
-                  <h2 class="weaverz-ai-font-opensans weaverz-ai-bose-title">
+                  <h2 class="weaverz-ai-font-opensans weaverz-ai-bose-title" style={{color : textColor, fontSize: HeadingfontSize}}>
                     {heading}
                   </h2>
-                  <h6 class="weaverz-ai-font-opensans weaverz-ai-bose-desc">
+                  <h6 class="weaverz-ai-font-opensans weaverz-ai-bose-desc" style={{color : textColor, fontSize: ParafontSize}}>
                     {description}
                   </h6>
                 </div>
@@ -78,7 +81,6 @@ EntityModule3.propTypes = {
   description: propTypes.string.isRequired,
   iconImage: propTypes.string,
   entityImage: propTypes.string,
-  orientation: propTypes.string,
   showCompId: propTypes.bool,
   iconSrcSet: propTypes.string,
   entitySrcSet: propTypes.string,
@@ -95,7 +97,6 @@ EntityModule3.defaultProps = {
   showCompId: true,
   HeadingfontSize: 20,
   ParafontSize: 16,
-  orientation: "r",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",
