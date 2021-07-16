@@ -1,0 +1,125 @@
+#weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+    height: 385px;
+    background-color: ghostwhite;
+  }
+  
+  #weaveroo-brand-module-4 .weaverz-ai-airpods-lightlogo-bg {
+    /* background-image: url(img/sonylightlogo.png); */
+    margin-bottom: 8px;
+    width: 100%;
+    height: auto;
+  
+  }
+  
+  #weaveroo-brand-module-4 .weaverz-ai-airpods-lightlogo-bg .weaverz-ai-img-auto {
+    padding: 20px 0;
+    height: 150px;
+    width: 60%;
+    margin: auto;
+  }
+  
+  #weaveroo-brand-module-4 .weaverz-ai-earbudBox-SectionHeading {
+    font-size: 29px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.87px;
+    text-align: center;
+    color: #333333;
+    max-width: 100%;
+    padding-top: 1rem;
+  }
+  #weaveroo-brand-module-4 .weaverz-ai-earbudBox-Section-Desc {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+    color: #333333;
+    padding-left: 90px;
+    max-width: 80%;
+    padding-top: 10px;
+  }
+  #weaveroo-brand-module-4 .weaverz-ai-temp6-brand-image{
+    width: 448px;
+    height: 385px;
+    object-fit: contain;
+    margin: auto;
+  }
+  @media (max-width: 768px) {
+    #weaveroo-brand-module-4 .weaverz-ai-airpods-lightlogo-bg {
+      background-position-x: -230px;
+      width: 100%;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+      height: auto;
+      background-color: #f7f7f7;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-temp6-brand-image{
+      width: 90%;
+      height: 90%;
+      object-fit: contain;
+      margin: 0;
+      float: right;
+    }
+  }
+  @media (max-width: 480px) {
+    #weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+      margin-top: 10%;
+      height: auto;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-airpods-lightlogo-bg {
+      align-items: center;
+      margin: 5% auto auto;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-earbudBox-SectionHeading {
+  
+      max-width: 100%;
+      text-align: center;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-earbudBox-Section-Desc {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      padding-left: 20px;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-temp6-brand-image{
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin: 0;
+      padding: 1rem;
+      float: none;
+    }
+  }
+  @media (max-width: 375px) {
+    #weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+      background-position-x: 10px;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-earbudBox-SectionHeading {
+      max-width: 100%;
+      padding-left: 0;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-earbudBox-Section-Desc {
+      max-width: 100%;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+      min-height: 90%;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-airpods-lightlogo-bg {
+  
+      bottom: 25%;
+    }
+  }
+  @media (max-width: 320px) {
+    #weaveroo-brand-module-4 .weaverz-ai-nine-earbudsBox-Section {
+      background-position-x: 0px;
+    }
+    #weaveroo-brand-module-4 .weaverz-ai-earbudBox-Section-Desc {
+      bottom: 20px;
+    }
+  }
+  

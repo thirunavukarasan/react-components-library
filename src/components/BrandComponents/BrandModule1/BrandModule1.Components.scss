@@ -1,0 +1,30 @@
+section#weaveroo-brand-module-1 {
+    .weaverz-ai-brand-section {
+        background-repeat: no-repeat;
+        background-position: center;
+
+    
+        h5 {
+            font-size: 22px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: -0.66px;
+            text-align: center;
+            color: #333333;
+            padding: 15px 0px 0px 0px;
+        }
+    }
+
+    .weaverz-ai-brand-side-img {
+        padding: 15% 15% 15% 15%;
+    }
+
+    $breakpoint-mobile: 425px;
+    @media (max-width: $breakpoint-mobile) {
+        .weaverz-ai-brand-section {
+            height: 350px;
+        }
+    }
+}

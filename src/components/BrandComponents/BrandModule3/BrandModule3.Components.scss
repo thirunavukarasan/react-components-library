@@ -1,0 +1,44 @@
+section#weaveroo-brand-module-3 {
+    .weaverz-ai-brand-section {
+        background-repeat: no-repeat;
+        background-position: center;
+        position: relative;
+        height: 200px;
+
+        .logo-img {
+            max-height: 100px;
+        }
+
+        h5 {
+            font-size: 22px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: -0.66px;
+            text-align: center;
+            color: #333333;
+            padding: 15px 0px 0px 0px;
+        }
+
+        &::after {
+            width: 100%;
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            height: 100%;
+            background-color: rgb(235 236 237 / 53%);
+            border-radius: 5px 118px 5px;
+            z-index: -1;
+            padding: 55px 60px;
+        }
+
+        $breakpoint-mobile: 425px;
+        @media (max-width: $breakpoint-mobile) {
+            h5 {
+                font-size: 16px;
+            }
+        }
+    }
+}

@@ -1,0 +1,191 @@
+
+
+#weaveroo-brand-module-5 .weaverz-ai-center-view-img {
+    /* background: url(img/centerview-blueimg.png) no-repeat; */
+    height: 241px;
+    background-position: left;
+    background-position-x: -160px;
+    background-position-y: 40px;
+  }
+  
+  
+  .weaverz-ai-bottom-Logo-part {
+    background: white !important;
+      padding: 10px;
+      border-radius: 5px;
+  
+  
+  
+  }
+  #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap {
+    height: 350px;
+    padding: 20px 0 19px;
+    background-color: #2c2c2c;
+  }
+  
+  #weaveroo-brand-module-5 .weaverz-ai-centerview-pra {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: center;
+    color: #ffffff;
+    padding-right: 1px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  
+  #weaveroo-brand-module-5 .weaverz-ai-centerview-heading {
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.87px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 1rem;
+  }
+  
+  #weaveroo-brand-module-5 .weaverz-ai-center-view-img .weaverz-ai-img-auto {
+    width: 448px;
+      height: 300px;
+      object-fit: contain;
+      margin: auto;
+  
+  }
+  
+  #weaveroo-brand-module-5 .weaverz-ai-white-songIcon {
+    height: 42px;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+  }
+  #weaveroo-brand-module-5  .weaverz-ai-bottom-bg-LeftPart{
+    margin-bottom: 8px;
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-pra {
+      padding-left: 25px;
+    }
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap {
+      margin: 5% 0;
+    }
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap {
+      height: auto;
+      padding: 20px 0 20px;
+      background-color: #2c2c2c;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-heading {
+  
+      padding: 0;
+      text-align: center;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap {
+      height: auto;
+      background-position-y: 150px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-heading {
+      padding-left: 30px;
+      padding-right: 60px;
+      margin-top: 3%;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-pra {
+      padding-left: 0;
+      position: absolute;
+      top: 510px;
+      width: 80%;
+      text-align: center;
+      left: 70px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-center-view-img .weaverz-ai-img-auto {
+  
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-pra {
+      padding-left: 0;
+      position: absolute;
+      top: 510px;
+      width: 100%;
+      text-align: center;
+      left: 20px;
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-heading {
+      padding-right: 10px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-heading {
+      font-size: 22px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.14;
+      letter-spacing: -0.66px;
+      text-align: center;
+      color: #ffffff;
+      text-transform: capitalize;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-center-view-img {
+      left: 25px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-pra {
+      padding-left: 0;
+  
+      width: 90%;
+      left: 15px;
+      padding: 0;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-pra {
+      width: 100%;
+      left: 0px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-center-view-img {
+      left: 0;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-heading {
+      font-size: 26px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-pra {
+      padding-right: 30px;
+      padding-bottom: 25px;
+    }
+  
+    #weaveroo-brand-module-5 .weaverz-ai-centerview-wrap .weaverz-ai-centerview-heading {
+      max-width: 80%;
+      left: 30px;
+    }
+  }
+  
