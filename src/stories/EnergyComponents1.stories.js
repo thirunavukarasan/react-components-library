@@ -1,5 +1,5 @@
 import React from "react";
-import {EnergyModule1} from "../components/EnergyComponents/EnergyModule1.Components";
+import {EnergyModule1} from "../components/EnergyComponents/EnergyModule1/EnergyModule1.Components";
 
 export default {
   title: "Weaveroo/Energy Modules/Energy Module 1",

@@ -5,3 +5,5 @@ export * from './components/EntityComponents';
 export * from './components/HeroComponents';
 export * from './components/DimComponents';
 export * from './components/KeyfeaturesComponents';
+export * from './components/BrandComponents';
+export * from './components/EnergyComponents';
