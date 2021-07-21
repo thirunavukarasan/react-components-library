@@ -1,0 +1,391 @@
+#weaveroo-entity-module-20 .weaverz-ai-tnshoe-wrap {
+  padding: 0;
+  height: 470px;
+  background-image: linear-gradient(113deg, rgb(62 62 62 / 32%) 7%, rgb(108 108 108 / 32%) 100%);
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tnshoe-img {
+  width: 300px;
+  height: 412px;
+  object-fit: contain;
+  z-index: 3;
+  bottom: -20px;
+  position: relative;
+  margin: auto;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+  z-index: 4;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -.28px;
+  text-align: left;
+  color: #333;
+  max-width: 88%;
+  margin-bottom: 0;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+  z-index: 4;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+  width: 100%;
+  margin-left: auto;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-white-halfcircle {
+  position: relative;
+  z-index: 1;
+  padding: 57px 40px 0 90px;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::after {
+  position: absolute;
+  content: "";
+  right: -85px;
+  top: -255px;
+  width: 593px;
+  height: 593px;
+  padding: 300px 89px 169px 79px;
+  opacity: 1;
+  background-color: #ffffff;
+  z-index: -1;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tn-half-circle::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -18px;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 664px;
+  height: 664px;
+  padding: 17px 17px 17px 0;
+  opacity: 1;
+  border: solid 1px #838383;
+}
+
+
+#weaveroo-entity-module-20 .weaverz-ai-stand-slivercircle::after {
+  content: "";
+  position: absolute;
+  right: -33px;
+  top: 71px;
+  width: 640px;
+  height: 640px;
+  padding: 100px 89px 169px 79px;
+  opacity: 1;
+  background-color: #333;
+  z-index: 1;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-stand-slivercircle::before {
+  content: "";
+  position: absolute;
+  top: 51px;
+  right: -44px;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 670px;
+  height: 670px;
+  padding: 17px 17px 17px 0;
+  opacity: 1;
+  border: solid 1px #838383;
+  z-index: 1;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tn-half-circle {
+  z-index: 2;
+  position: relative;
+  left: -60px;
+  position: absolute;
+  /*    left: 15px;*/
+  bottom: -338px;
+  width: 630px;
+  height: 630px;
+  padding: 315px 92px 191px 54px;
+  opacity: 0.88;
+  background-color: #bebebe;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-standards-half-circle::before {
+  content: "";
+  position: absolute;
+  left: -15px;
+  top: -18px;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 664px;
+  height: 750px;
+  padding: 17px 17px 17px 0;
+  opacity: 1;
+  border: solid 1px #838383;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-standards-half-circle {
+  z-index: 2;
+  left: -54px;
+  position: absolute;
+  bottom: auto;
+  top: -285px;
+  width: 630px;
+  height: 715px;
+  padding: 315px 92px 191px 54px;
+  opacity: 0.88;
+  background-color: #f2f2f2;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-stand-heading, #weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+  font-size: 25px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  max-width: 60%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-standards-content {
+  padding-left: 54px;
+  padding-top: 55px;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::before {
+  position: absolute;
+  content: "";
+  right: -100px;
+  top: -268px;
+  width: 623px;
+  height: 623px;
+  padding: 300px 89px 169px 79px;
+  opacity: 1;
+  background-color: transparent;
+  z-index: -1;
+  border-radius: 100%;
+  border: solid 1px #838383;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-standup-pra {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #333333;
+  max-width: 80%;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-alig-items-center {
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+    max-width: 70%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle {
+    padding: 57px 0 0 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tn-half-circle::before {
+    width: 495px;
+    height: 496px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tn-half-circle {
+    width: 475px;
+    height: 475px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::before {
+    width: 573px;
+    height: 573px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::after {
+    width: 543px;
+    height: 543px;
+  }
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-wrap {
+    height: 520px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+    width: 60%;
+    margin-left: auto;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::before {
+    right: -50px;
+    top: -120px;
+    width: 378px;
+    height: 378px;
+    padding: 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::after {
+    right: -35px;
+    top: -105px;
+    width: 350px;
+    height: 349px;
+    padding: 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle {
+    padding: 30px 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+    font-size: 22px !important;
+    text-align: left !important;
+    max-width: 100% !important;
+    position: relative;
+    left: 0;
+    top: -10px;
+    padding-bottom: 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+    font-size: 14px;
+    left: 0;
+    top: -10px;
+    position: relative;
+    text-align: left !important;
+    max-width: 100%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-img {
+    position: absolute;
+    top: 100px;
+    width: 251px;
+    height: 345px;
+    left: 23%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tn-half-circle::before {
+    width: 379px;
+    height: 379px;
+    left: 4px;
+    top: 25px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tn-half-circle {
+    bottom: -215px;
+    width: 368px;
+    height: 368px;
+    padding: 0;
+    background-color: unset;
+  }
+}
+
+@media (max-width: 425px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-wrap {
+    height: 570px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+    max-width: 100% !important;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+    width: 68%;
+    margin-left: auto;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-img {
+    top: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+    max-width: 100% !important;
+    top: 0px;
+    left: 0;
+    padding-right: 5px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+    width: 75%;
+    margin-left: auto;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+    max-width: 100%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle {
+    padding: 20px 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+    left: 0;
+    top: 0px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-img {
+    left: 19%;
+  }
+}
+
+@media (max-width: 340px) {
+  #weaveroo-entity-module-20 .weaverz-ai-stand-slivercircle {
+    padding-bottom: 40px;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+    width: 80%;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 320px) {
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-pra {
+    font-size: 13px !important;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoewhitecontent-area {
+    width: 85%;
+    margin-left: auto;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-tnshoe-img {
+    left: 12%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::before {
+    right: -50px;
+    top: -120px;
+    width: 355px;
+    height: 355px;
+    padding: 0;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-white-halfcircle::after {
+    right: -35px;
+    top: -105px;
+    width: 325px;
+    height: 325px;
+    padding: 0;
+  }
+}

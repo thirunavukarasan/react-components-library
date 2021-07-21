@@ -1,0 +1,290 @@
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-slivercircle::after {
+  content: "";
+  position: absolute;
+  right: -33px;
+  top: 30px;
+  width: 640px;
+  height: 640px;
+  padding: 100px 89px 169px 79px;
+  opacity: 1;
+  background-color: #333;
+  z-index: 1;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-slivercircle::before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: -48px;
+  background-color: transparent;
+  border-radius: 100%;
+  width: 670px;
+  height: 670px;
+  padding: 17px 17px 17px 0;
+  opacity: 1;
+  border: solid 1px #838383;
+  z-index: 1;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap {
+  /* background: #c6c6c6; */
+  height: 449px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-reflectsilver-img {
+  object-fit: contain;
+  bottom: -65px;
+  position: relative;
+  /*    transform: rotate(180deg);*/
+  width: 200px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap h6 {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap h3 {
+  font-family: Roboto;
+  font-size: 47px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -1.41px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-imgsec {
+  position: relative;
+  z-index: 2;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-imgsec .weaverz-ai-reflectsilver-img:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-rowflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-key-features-inr {
+  margin-bottom: 25px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon1-img {
+  width: 43px;
+  height: 36px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon2-img {
+  width: fit-content;
+  min-height: 36px;
+  object-fit: contain;
+  max-height: 45px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-group .box-icon {
+  min-height: 52px;
+  max-height: 100%;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon3-img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon4-img {
+  width: 45px;
+  height: 47px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon5-img {
+  width: 43px;
+  height: 44px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-keybox-icon6-img {
+  width: 47px;
+  height: 34px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-box-right-text {
+  margin-left: 15px;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-box-right-text h6 {
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: -0.36px;
+  text-align: left;
+  color: #ffffff;
+  word-break: break-word;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-box-right-text span {
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #ffffff;
+  word-break: break-word;
+  display: block;
+}
+
+#weaveroo-entity-module-22 .weaverz-ai-stand-group {
+  z-index: 2;
+  top: 100px;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap {
+    height: 720px;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-rowflex {
+    margin: 0 15px;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-reflectsilver-img {
+    width: 40%;
+    bottom: -185px;
+  }
+
+  #weaveroo-entity-module-22 .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-stand-group {
+    top: 385px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+    padding-left: 0;
+    right: 0;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-stand-imgsec {
+    padding-top: 0;
+    margin-top: 10px;
+    top: -180px;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-stand-slivercircle::before {
+    display: none;
+    content: "";
+    position: absolute;
+    bottom: -97px;
+    left: -35px;
+    background-color: transparent;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    padding: 17px 17px 17px 0;
+    opacity: 1;
+    border: solid 1px #838383;
+    z-index: 1;
+    top: auto;
+    right: auto;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap h6 {
+    max-width: 100%;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-standup-pra {
+    max-width: 98%;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-stand-slivercircle::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 390px;
+    padding: 0;
+    opacity: 1;
+    background-color: #333333;
+    z-index: 1;
+    top: auto;
+    right: auto;
+    border-radius: 0px;
+    z-index: 2;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-reflectsilver-wrap {
+    background-image: linear-gradient(134deg, rgb(62 62 62 / 31%) 10%, rgb(108 108 108 / 32%));
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-stand-group .weaverz-ai-stand-heading {
+    left: auto;
+    text-align: center;
+    position: relative;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-key-features-icon-part {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  #weaveroo-entity-module-22 .weaverz-ai-stand-group .weaverz-ai-stand-heading {
+    left: auto;
+    text-align: center;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-key-features-icon-part {
+    left: 0;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-reflectsilver-img {
+    width: 40%;
+    bottom: -190px;
+  }
+}
+
+@media (max-width: 320px) {
+  #weaveroo-entity-module-22 .weaverz-ai-stand-group .weaverz-ai-stand-heading {
+    left: auto;
+    text-align: center;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-key-features-icon-part {
+    left: 0;
+  }
+
+  #weaveroo-entity-module-22 .weaverz-ai-box-right-text h6 {
+    font-size: 10px;
+  }
+}

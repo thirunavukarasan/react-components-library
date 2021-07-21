@@ -1,0 +1,179 @@
+#weaveroo-entity-module-24 .weaverz-ai-bottomfootimg-wrap {
+  height: 430px;
+  padding: 15px 32px 11px 0;
+  /* background-image: linear-gradient(to bottom, #dddddd, #bababa); */
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-bottomfoot-img {
+  width: 765px;
+  height: 300px;
+  object-fit: contain;
+  transform: rotate(180deg);
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-alig-items-center {
+  align-items: center;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 {
+  padding: 5px;
+  border: dashed 3px #707070;
+  width: 214px;
+  height: 212px;
+  border-radius: 100%;
+  background-color: #fff;
+  left: -65px;
+  top: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 {
+  width: 163px;
+  height: 161px;
+  border: dashed 3px #707070;
+  border-radius: 100%;
+  padding: 10px;
+  background-color: #fff;
+  left: 30px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 img {
+  right: -295px;
+  top: -35px;
+  position: absolute;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-feature-box2 {
+  bottom: -7px;
+  width: 220.4px;
+  height: 78.8px;
+  margin: 23px 72.3px 40.7px 547.3px;
+  border: dashed 3px #707070;
+  position: absolute;
+  border-top: 0;
+  border-right: 0;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 img {
+  left: -70px;
+  top: -45px;
+  position: absolute;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-24 .weaverz-ai-feature-box1 {
+  width: 713.4px;
+  height: 60.6px;
+  margin: 25px 154.7px 23px 123.9px;
+  border: dashed 3px #707070;
+  position: absolute;
+  border-bottom: 0;
+  top: 24px;
+  border-right: 0;
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-24 .weaverz-ai-bottomfootimg-wrap {
+    height: 400px;
+    padding-right: 0;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 {
+    padding: 8px;
+    right: auto !important;
+    position: absolute;
+    left: 20px !important;
+    width: 163px;
+    height: 161px;
+    top: 210px;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-feature-box2 {
+    bottom: 135px;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 {
+    top: 38px;
+    position: relative;
+    float: right;
+    left: -30px;
+    width: 166px;
+    height: 165px;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-feature-box2 {
+    bottom: -7px;
+    width: 35px;
+    top: -2px;
+    right: 50px;
+    height: 167.8px;
+    margin: 109px 50px 0 0;
+    border: dashed 3px #707070;
+    position: absolute;
+    border-left: 0;
+    border-bottom: 0;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-bottomfoot-img {
+    width: 375px;
+    height: 155px;
+    margin: auto;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-feature-box1 {
+    width: 35px;
+    height: 135px;
+    margin: 57px 154.7px 23px 90.9px;
+    border: dashed 3px #707070;
+    position: absolute;
+    border-bottom: 0;
+    top: 24px;
+    border-right: 0;
+    left: 30px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 img {
+    right: -105px;
+    top: -135px;
+  }
+}
+@media (max-width: 425px) {
+  #weaveroo-entity-module-24 .weaverz-ai-feature-box1 {
+    left: 0;
+  }
+}
+@media (max-width: 375px) {
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 {
+    left: -20px;
+  }
+
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 img {
+    right: -90px;
+    top: -100px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 {
+    left: 10px !important;
+  }
+}
+@media (max-width: 320px) {
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border1 {
+    width: 143px;
+    height: 141px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 {
+    width: 146px;
+    height: 145px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-featureimg-border2 {
+    left: -10px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-feature-box2 {
+    right: 30px;
+  }
+  #weaveroo-entity-module-24 .weaverz-ai-bottomfoot-img {
+    width: 100%;
+  }
+}

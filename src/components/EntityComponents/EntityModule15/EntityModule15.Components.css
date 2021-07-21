@@ -1,0 +1,243 @@
+#weaveroo-entity-module-15 .weaver-ai-p-0 {
+  padding: 0;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-black-heading {
+  position: absolute;
+  word-break: break-word;
+  margin-left: 0;
+  opacity: 0.06;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center !important;
+  color: #ffffff;
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-group {
+  margin-top: -105px !important;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-blackbg {
+  width: 920px;
+  background-color: #1a1919;
+  margin: 0 auto;
+  text-align: center;
+  height: 520px;
+  position: relative;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-hyrid-shoe {
+  padding: 0 53px;
+  position: relative;
+  margin: 0 auto;
+  width: 1024px;
+  height: 615px;
+  background-color: #fff;
+  background: #fff;
+  z-index: 9;
+  overflow: visible;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-hyrid-shoe.weaver-ai-feature-shoe h6 {
+  margin-top: 0 !important;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-hyrid-img {
+  width: 319px;
+  height: 470px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-keyfeatureheading {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  margin: 0;
+  text-align: left;
+  color: #ffffff;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-item {
+  width: 190px;
+  min-height: 72px;
+  padding: 14px 10px 13.3px 12px;
+  border-radius: 11px;
+  border: solid 1px #707070;
+  display: flex;
+  margin-bottom: 15px;
+  max-height: 100%;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-keyimg {
+  width: fit-content;
+  min-height: 34px;
+  max-height: 45px;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-contentgroup {
+  padding-left: 15px;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-key-heading {
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  margin: 0;
+  line-height: 1.42;
+  letter-spacing: -0.36px;
+  text-align: left;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-finest-key-pragraph {
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  word-break: break-word;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-wave-img-sec {
+  position: relative;
+  /* background-color: #fff; */
+  overflow: visible;
+  bottom: 138px;
+  z-index: 9;
+  width: 1024px;
+  height: 290px;
+  /* background: url(../img/wave-img1.png) no-repeat; */
+  background-position-x: center;
+  left: -50px;
+}
+
+#weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-feature-img {
+  position: relative;
+  top: -110px;
+}
+
+
+@media (max-width: 991px) {
+  #weaveroo-entity-module-15 .weaver-ai-feature-img {
+      left: 0px;
+      bottom: 0;
+      top: 60px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-img {
+      width: 290px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-row {
+      width: 100%;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe {
+      padding: 0;
+      width: 100%;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-wave-img-sec {
+      width: 100%;
+      left: 0;
+  }
+
+}
+
+@media(max-width:480px) {
+
+  #weaveroo-entity-module-15 .weaver-ai-feature-img {
+      left: -30px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-row {
+      height: 100%;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-item {
+      width: 150px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-container {
+      padding: 0;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-black-heading {
+      font-size: 18px;
+      padding: 15px 5px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-img {
+      width: 195px;
+      height: 285px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe .weaver-ai-feature-img {
+      position: relative;
+      top: 0;
+      left: 0;
+      padding-bottom: 30px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-group {
+      margin-top: -25px !important;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-mt-top40 {
+      margin-top: 0px !important;
+      padding-left: 30px !important;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-wave-img-sec {
+      display: none;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-finest-keyfeatureheading {
+      text-align: center;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-hyrid-shoe {
+    height: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+@media(max-width:375px) {
+  #weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-item {
+      width: 130px;
+  }
+}
+
+@media(max-width:320px) {
+  #weaveroo-entity-module-15 .black-heading {
+      font-size: 36px;
+  }
+
+  #weaveroo-entity-module-15 .weaver-ai-finest-keyfeature-item {
+      width: 120px;
+  }
+
+}

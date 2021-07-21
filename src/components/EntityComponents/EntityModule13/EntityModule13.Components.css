@@ -1,0 +1,237 @@
+#weaveroo-entity-module-13 .weaver-ai-feature-shoe {
+  width: 1024px;
+  height: 320px;
+  padding: 20px 51px 0 0;
+  margin: 0 auto;
+  overflow: hidden;
+  /* background: linear-gradient(239deg, rgba(60, 60, 60, 1) 0%, rgba(0, 0, 0, 1) 100%); */
+}
+
+#weaveroo-entity-module-13 .weaver-ai-feature-shoe .weaver-ai-feature-shoe-top {
+  top: -40px;
+  position: relative;
+}
+
+#weaveroo-entity-module-13
+  .weaver-ai-feature-shoe
+  .weaver-ai-feature-shoe-top
+  h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+#weaveroo-entity-module-13
+  .weaver-ai-feature-shoe
+  .weaver-ai-feature-shoe-top
+  p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.28px;
+  text-align: left;
+  width: 80%;
+  margin: 0;
+  color: #ffffff;
+}
+
+#weaveroo-entity-module-13 .weaver-ai-feature-img {
+  position: relative;
+  left: 0;
+  top: 25px;
+}
+
+#weaveroo-entity-module-13 .weaver-ai-featureshoe-img {
+  width: 534px;
+  height: 400px;
+  object-fit: contain !important;
+}
+
+#weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+  color: #343333;
+  font-size: 125px;
+  position: absolute;
+  bottom: 150px;
+  left: 39.5%;
+  /*    left: 48.5%;*/
+}
+
+#weaveroo-entity-module-13 .weaver-ai-featureshoe-img {
+  height: 400px;
+  width: 530px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-13 .weaver-ai-featureshoe-rightimg {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 991px) {
+  #weaveroo-entity-module-13 .weaver-ai-about-shoe {
+    padding: 0;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-left: 0;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-featureshoe-img {
+    height: 350px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-feature-img {
+    left: -125px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-feature-shoe h6 {
+    font-size: 12px;
+    margin-top: 0;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+    left: 39%;
+    bottom: 85px;
+  }
+}
+
+@media (max-width: 800px) and (min-width: 768px) {
+  #weaveroo-entity-module-13 .weaver-ai-feature-img {
+    left: 0 !important;
+    top: 65px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-pl-5 {
+    padding-left: 40px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-featureshoe-img {
+    height: 350px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-featureshoe-leftimg {
+    left: -25px;
+    position: relative;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+    left: 34%;
+    bottom: 100px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-feature-shoe h6 {
+    margin-top: 0;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-y-right-img {
+    width: 330px !important;
+    right: -50px !important;
+    top: 85px !important;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-y-left-img {
+    padding-bottom: 30px;
+    width: 330px !important;
+    top: 95px !important;
+    left: -25px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+    left: 41%;
+    top: 100px;
+    font-size: 100px;
+  }
+
+  #weaveroo-entity-module-13
+    .weaver-ai-feature-shoe
+    .weaver-ai-feature-shoe-top {
+    top: 0;
+  }
+
+  #weaveroo-entity-module-13
+    .weaver-ai-feature-shoe
+    .weaver-ai-feature-shoe-top
+    h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #weaveroo-entity-module-13
+    .weaver-ai-feature-shoe
+    .weaver-ai-feature-shoe-top
+    p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-about-shoe.weaver-ai-feature-shoe {
+    height: 100%;
+    padding: 15px 0 26px 0;
+    width: 100%;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-pl-5.weaver-ai-col-sm-6 {
+    padding-bottom: 180px;
+    padding-top: 10px !important;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-about-shoe .weaver-ai-feature-img img {
+    width: 100%;
+    position: initial;
+    height: 350px;
+    left: 0;
+    bottom: 0;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-feature-shoe p {
+    width: 100%;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-about-shoe .weaver-ai-feature-img img {
+    bottom: -350px;
+  }
+}
+
+@media (max-width: 375px) {
+  #weaveroo-entity-module-13 .weaver-ai-about-shoe .weaver-ai-feature-img img {
+    bottom: -330px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-pl-5.weaver-ai-col-sm-6 {
+    padding-left: 30px !important;
+    padding-bottom: 155px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+    font-size: 100px;
+    left: 40%;
+    top: 85px;
+  }
+}
+
+@media (max-width: 320px) {
+  #weaveroo-entity-module-13 .weaver-ai-pl-5.weaver-ai-col-sm-6 {
+    padding-left: 10px !important;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-feature-shoe h6 {
+    font-size: 21px;
+  }
+
+  #weaveroo-entity-module-13 .weaver-ai-eqal-ico {
+    font-size: 70px;
+    left: 42%;
+    top: 103px;
+  }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* body {
+  font-family: "Poppins", sans-serif;
+} */
+
+#weaveroo-entity-module-20 .weaverz-ai-font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-font-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-tnshoe-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: -0.66px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 768px) {
+  #weaveroo-entity-module-20 .container {
+    max-width: 100%;
+  }
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-main-full-wrap {
+  width: 1024px;
+}
+
+#weaveroo-entity-module-20 .weaverz-ai-img-auto {
+  max-width: inherit !important;
+}
+
+@media (max-width: 480px) {
+  #weaveroo-entity-module-20 .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-main-full-wrap {
+    width: 100%;
+  }
+
+  #weaveroo-entity-module-20 .weaverz-ai-img-auto {
+    max-width: inherit !important;
+  }
+}
