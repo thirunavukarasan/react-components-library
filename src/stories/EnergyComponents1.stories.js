@@ -13,7 +13,7 @@ Default.args = {
   energyRating: "A",
   heading: "Key Features",
   image:
-    "https://weaver-ai-template-syndication-poc.s3.ap-south-1.amazonaws.com/static/electric_ceramic_1-ec2035f078782b3fa0bfee0e7c33882b.png",
+  "http://weaver-ai-template-syndication-poc.s3-website.ap-south-1.amazonaws.com/static/energy-leftimg-1025344f6331c2c5589f5231cc6406e5.png",
   logo:
     "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/96d6f2e7e1f705ab5e59c84a6dc009b2/d2b298a9d3257189d9047cdcd304715b/bd686fd640be98efaae0091fa301e613/114d7c5b964255ba1e2763837240e087.png",
   keyfeatures: [

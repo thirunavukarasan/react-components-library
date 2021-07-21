@@ -11,7 +11,7 @@ const Template = (args) => <EntityModule5 {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   showCompId: true,
-  bgColor: "#f8f8f8",
+  bgColor: "",
   textColor: "#393939",
   iconFilter: false,
   HeadingfontSize:20,
