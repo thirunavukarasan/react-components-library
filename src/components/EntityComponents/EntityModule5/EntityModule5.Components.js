@@ -21,7 +21,7 @@ export const EntityModule5 = (props) => {
   } = props;
   const styles = {
     bg: {
-      backgroundColor: bgColor ? bgColor : "#f8f8f8",
+      backgroundColor: bgColor ? bgColor : "",
     },
     iconFilter: {
       filter: iconFilter ? `invert(1)` : "",
@@ -42,21 +42,27 @@ export const EntityModule5 = (props) => {
                 <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden xl:weaverz-ai-px-20 md:weaverz-ai-px-12 sm:weaverz-ai-px-8 weaverz-ai-px-4 weaverz-ai-py-4">
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
                     <img
-                       src={iconImage}
-                       srcSet={iconSrcSet}
-                       sizes={iconSizes}
-                       alt={heading}
-                       style={styles.iconFilter}
+                      src={iconImage}
+                      srcSet={iconSrcSet}
+                      sizes={iconSizes}
+                      alt={heading}
+                      style={styles.iconFilter}
                       className="weaverz-ai-h-16 weaverz-ai-entity-icon"
                     />
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading" style={{color : textColor, fontSize: HeadingfontSize}}>
+                    <h4
+                      className="weaverz-ai-font-opensans weaverz-ai-entity-heading"
+                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                    >
                       {heading}
                     </h4>
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description" style={{color : textColor, fontSize: ParafontSize}}>
+                    <p
+                      className="weaverz-ai-font-opensans weaverz-ai-entity-description"
+                      style={{ color: textColor, fontSize: ParafontSize }}
+                    >
                       {description}
                     </p>
                   </div>
@@ -64,10 +70,10 @@ export const EntityModule5 = (props) => {
               </div>
               <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12 weaverz-ai-my-auto weaverz-ai-order-1 sm:weaverz-ai-order-2">
                 <img
-                   src={entityImage}
-                   srcSet={entitySrcSet}
-                   sizes={entitySizes}
-                   alt={heading}
+                  src={entityImage}
+                  srcSet={entitySrcSet}
+                  sizes={entitySizes}
+                  alt={heading}
                   className="weaverz-ai-entity-img"
                 />
               </div>
@@ -81,10 +87,10 @@ export const EntityModule5 = (props) => {
             <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
               <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12 weaverz-ai-my-auto">
                 <img
-                   src={entityImage}
-                   srcSet={entitySrcSet}
-                   sizes={entitySizes}
-                   alt={heading}
+                  src={entityImage}
+                  srcSet={entitySrcSet}
+                  sizes={entitySizes}
+                  alt={heading}
                   className="weaverz-ai-entity-img"
                 />
               </div>
@@ -93,21 +99,27 @@ export const EntityModule5 = (props) => {
                 <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden xl:weaverz-ai-px-20 md:weaverz-ai-px-12 sm:weaverz-ai-px-8 weaverz-ai-px-4 weaverz-ai-py-4">
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
                     <img
-                       src={iconImage}
-                       srcSet={iconSrcSet}
-                       sizes={iconSizes}
-                       alt={heading}
-                       style={styles.iconFilter}
+                      src={iconImage}
+                      srcSet={iconSrcSet}
+                      sizes={iconSizes}
+                      alt={heading}
+                      style={styles.iconFilter}
                       className="weaverz-ai-h-16 weaverz-ai-entity-icon"
                     />
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <h4 className="weaverz-ai-font-opensans weaverz-ai-entity-heading" style={{color : textColor, fontSize: HeadingfontSize}}>
+                    <h4
+                      className="weaverz-ai-font-opensans weaverz-ai-entity-heading"
+                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                    >
                       {heading}
                     </h4>
                   </div>
                   <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                    <p className="weaverz-ai-font-opensans weaverz-ai-entity-description" style={{color : textColor, fontSize: ParafontSize}}>
+                    <p
+                      className="weaverz-ai-font-opensans weaverz-ai-entity-description"
+                      style={{ color: textColor, fontSize: ParafontSize }}
+                    >
                       {description}
                     </p>
                   </div>
@@ -159,7 +171,7 @@ EntityModule5.defaultProps = {
     "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/07214c6750d983a32e0a33da225c4efd/e3810e13cc6dc8d4dc5263e182c0f53d/eb5c1399a871211c7e7ed732d15e3a8b/d6baf65e0b240ce177cf70da146c8dc8/5f2255c585c1873f476eca7ae0767178.png 264w,https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/07214c6750d983a32e0a33da225c4efd/e3810e13cc6dc8d4dc5263e182c0f53d/eb5c1399a871211c7e7ed732d15e3a8b/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png 500w",
   iconSizes: "(max-widgth: 500) 100vw, 500px",
   entitySizes: "(max-widgth: 500) 100vw, 500px",
-  bgColor: "#f8f8f8",
+  bgColor: "",
   textColor: "#393939",
   iconFilter: false,
 };
