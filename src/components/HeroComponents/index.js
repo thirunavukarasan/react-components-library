@@ -7,3 +7,4 @@ export * from './HeroModule6/HeroModule6.Components';
 export * from './HeroModule7/HeroModule7.Components';
 export * from './HeroModule8/HeroModule8.Components';
 export * from './HeroModule9/HeroModule9.Components';
+export * from './HeroModule10/HeroModule10.Components';

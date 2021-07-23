@@ -1,0 +1,113 @@
+#weaveroo-dimension-module-5 .measurement-section {
+  margin: 5% 0;
+}
+
+#weaveroo-dimension-module-5 .measurement-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+
+#weaveroo-dimension-module-5 .dim-value ,#weaveroo-dimension-module-5 .dim-key {
+    text-align: left;
+    font-feature-settings: "tnum";
+    -moz-font-feature-settings: "tnum";
+    -ms-font-feature-settings: "tnum";
+    -webkit-font-feature-settings: "tnum";
+    padding-left: 20px;
+    font-size: 16px;
+    padding-bottom: calc(0.725rem - 1px);
+}
+
+#weaveroo-dimension-module-5 .first {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#weaveroo-dimension-module-5 .second {
+  flex: 1;
+}
+
+#weaveroo-dimension-module-5 .order2 {
+  order: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#weaveroo-dimension-module-5 .order1 {
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#weaveroo-dimension-module-5 .spechead {
+  font-size: 1em;
+  color: #ccc;
+  font-weight: 500;
+}
+
+#weaveroo-dimension-module-5 .seperator {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+#weaveroo-dimension-module-5 .key {
+  color: #000;
+  width: 20%;
+}
+
+#weaveroo-dimension-module-5 .measurement-container td {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#weaveroo-dimension-module-5 .product-image-right {
+  width: 15vw;
+  float: right;
+  margin: 0 auto;
+  height: 300px;
+  object-fit: contain;
+}
+
+#weaveroo-dimension-module-5 .Image-cus {
+  display: inline;
+}
+
+#weaveroo-dimension-module-5 .add-top-margin {
+  margin-top: 0px !important;
+  padding: 30px 0px 30px 0px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+}
+
+#weaveroo-dimension-module-5 .container {
+  margin: none !important;
+}
+@media screen and (max-width: 736px) {
+  #weaveroo-dimension-module-5 .measurement-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #weaveroo-dimension-module-5 .measurement-container:nth-child(1) {
+    flex-direction: column-reverse;
+  }
+  #weaveroo-dimension-module-5 .product-image-right {
+    float: right;
+    margin: 0 auto;
+  }
+  #weaveroo-dimension-module-5 .product-image-left {
+    float: left;
+    margin: 0 auto;
+  }
+}
