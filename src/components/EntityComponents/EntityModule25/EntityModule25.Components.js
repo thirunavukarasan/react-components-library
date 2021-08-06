@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 import "./EntityModule25.Common.css";
 
 export const EntityModule25 = (props) => {
-  const { text, entities, showCompId, bgColor,textColor } = props;
+  const { text, entities, showCompId, bgColor,textColor,textalignment } = props;
   const styles = {
     bg: {
       background: bgColor,
@@ -46,7 +46,7 @@ export const EntityModule25 = (props) => {
                         </div>
                         <div className="weaverz-ai-dark weaverz-ai-p-2">
                           <span className="weaverz-ai-text-center weaverz-ai-mt-2">
-                            <h3 className="weaverz-ai-text-left weaverz-ai-mb-2">
+                            <h3 className={`weaverz-ai-text-${textalignment} weaverz-ai-mb-2`}>
                               {content.heading}
                             </h3>
                             <p className="weaverz-ai-text-justify">
@@ -67,6 +67,7 @@ export const EntityModule25 = (props) => {
 };
 
 EntityModule25.propTypes = {
+  textalignment:propTypes.string,
   text: propTypes.string,
   textColor: propTypes.string,
   showCompId: propTypes.bool,
@@ -83,6 +84,7 @@ EntityModule25.propTypes = {
 };
 
 EntityModule25.defaultProps = {
+  textalignment: "left",
   text: "Product Features",
   showCompId: true,
   entities: [

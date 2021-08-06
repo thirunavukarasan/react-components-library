@@ -1,6 +1,6 @@
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 {
     background-color: #ffffff;
-    padding: 11px 0;
+    /* padding: 11px 0; */
     position: relative;
     height: 380px;
 }
@@ -17,7 +17,7 @@
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-imgsec {
     z-index: 2;
     position: relative;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-fridge-ico {
@@ -28,7 +28,7 @@
     border: solid 1px #d8d8d8;
     background-color: #ffffff;
     align-items: center;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -43,6 +43,9 @@
     color: #333333;
     padding-bottom: 6px;
     padding-top: 20px;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
 }
 
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-pragraph {
@@ -63,6 +66,7 @@
 
 
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-leftcontent {
+    /* display: flex; */
     position: relative;
     margin: auto;
     text-align: center;
@@ -90,8 +94,9 @@
 }
 
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-productimg {
-    width: 572px;
-    height: 347px;
+    /* width: 572px; */
+    width: 100%;
+    height: 380px;
 }
 
 @media(max-width:991px) {}
@@ -141,7 +146,7 @@
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-leftcontent{
         position:absolute;
-        top:280px;
+        top:309px;
         width:100%;
         height:auto;
     }
@@ -179,7 +184,7 @@
         top:110px;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-leftcontent{
-        top:250px;
+        top:309px;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-mainheading{
         max-width:100%;

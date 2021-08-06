@@ -17,7 +17,9 @@ export const EntityModule1 = (props) => {
     textColor,
     iconFilter,
     HeadingfontSize,
-    ParafontSize
+    ParafontSize,
+    imageWidth,
+    iconShow
   } = props;
   const styles = {
     bg: {
@@ -25,7 +27,21 @@ export const EntityModule1 = (props) => {
     },
     iconFilter : {
       filter: iconFilter ? `invert(1)` : ""
+    },
+    iconDisplay:{
+      display: iconShow ? "" : "none"
     }
+  }
+
+  let dynmicWidthImg;
+  let dynmicWidthText;
+
+  if(imageWidth === "25%") {
+    dynmicWidthImg = "sm:weaverz-ai-w-full md:weaverz-ai-w-5/12 lg:weaverz-ai-w-5/12 xl:weaverz-ai-w-5/12",
+    dynmicWidthText = "sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12"
+  }else if (imageWidth === "75%") {
+    dynmicWidthImg = "sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12",
+    dynmicWidthText = "sm:weaverz-ai-w-full md:weaverz-ai-w-5/12 lg:weaverz-ai-w-5/12 xl:weaverz-ai-w-5/12"
   }
   return (
     <>
@@ -38,7 +54,7 @@ export const EntityModule1 = (props) => {
       >
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
-            <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-5/12 lg:weaverz-ai-w-5/12 xl:weaverz-ai-w-5/12 weaverz-ai-bg-black ">
+            <div className={`weaverz-ai-w-full weaverz-ai-overflow-hidden ${dynmicWidthImg}`}>
               <img
                 src={entityImage}
                 srcSet={entitySrcSet}
@@ -47,9 +63,9 @@ export const EntityModule1 = (props) => {
               />
             </div>
 
-            <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12">
+            <div className={`weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center ${dynmicWidthText}`}>
               <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden xl:weaverz-ai-px-20 md:weaverz-ai-px-12 sm:weaverz-ai-px-8 weaverz-ai-px-4 weaverz-ai-py-4">
-                <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
+                <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden" style={styles.iconDisplay}>
                   <img
                     src={iconImage}
                     srcSet={iconSrcSet}
@@ -83,9 +99,9 @@ export const EntityModule1 = (props) => {
       >
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
-            <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center sm:weaverz-ai-w-full md:weaverz-ai-w-7/12 lg:weaverz-ai-w-7/12 xl:weaverz-ai-w-7/12 md:weaverz-ai-order-1 sm:weaverz-ai-order-2 weaverz-ai-order-2">
+            <div className={`weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center ${dynmicWidthText} md:weaverz-ai-order-1 sm:weaverz-ai-order-2 weaverz-ai-order-2`}>
               <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden xl:weaverz-ai-px-20 md:weaverz-ai-px-12 sm:weaverz-ai-px-8 weaverz-ai-px-4 weaverz-ai-py-4">
-                <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
+                <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden" style={styles.iconDisplay}>
                   <img
                     src={iconImage}
                     srcSet={iconSrcSet}
@@ -107,7 +123,7 @@ export const EntityModule1 = (props) => {
               </div>
             </div>
 
-            <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-5/12 lg:weaverz-ai-w-5/12 xl:weaverz-ai-w-5/12 md:weaverz-ai-order-2 sm:weaverz-ai-order-1 weaverz-ai-order-1">
+            <div className={`weaverz-ai-w-full weaverz-ai-overflow-hidden ${dynmicWidthImg} md:weaverz-ai-order-2 sm:weaverz-ai-order-1 weaverz-ai-order-1`}>
               <img
                 src={entityImage}
                 srcSet={entitySrcSet}
@@ -124,6 +140,8 @@ export const EntityModule1 = (props) => {
 
 
 EntityModule1.propTypes = {
+  iconShow: propTypes.bool,
+  imageWidth:propTypes.string,
   heading: propTypes.string.isRequired,
   description: propTypes.string.isRequired,
   iconImage: propTypes.string,
@@ -142,6 +160,8 @@ EntityModule1.propTypes = {
 };
 
 EntityModule1.defaultProps = {
+  iconShow:true,
+  imageWidth:"25%",
   showCompId: true,
   HeadingfontSize:20,
   ParafontSize : 16,

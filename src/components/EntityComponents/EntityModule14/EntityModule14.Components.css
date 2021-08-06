@@ -1,5 +1,5 @@
 #weaveroo-entity-module-14 .weaver-ai-nike-shoe h2 {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-size: 50px;
   font-weight: normal;
   font-stretch: normal;
@@ -13,7 +13,7 @@
 }
 
 #weaveroo-entity-module-14 .weaver-ai-nike-shoe p {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -128,6 +128,10 @@
       padding-left: 30px !important;
   }
 
+  #weaveroo-entity-module-14 .weaver-ai-nike-shoe p {
+    font-size: 14px !important;
+  }
+
   #weaveroo-entity-module-14 .weaver-ai-nike-logo-center {
       top: 55%;
       left: 30%;
@@ -162,4 +166,8 @@
 
 @media (max-width: 375px) {}
 
-@media(max-width:320px) {}
+@media(max-width:320px) {
+  #weaveroo-entity-module-14 .weaver-ai-nike-logo-center {
+    top: 66%;
+  }
+}

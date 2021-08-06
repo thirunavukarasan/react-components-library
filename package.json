@@ -70,7 +70,7 @@
     "sass-loader": "^10.1.1",
     "storybook-addon-playroom": "^2.1.1",
     "style-loader": "^2.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   },
   "peerDependencies": {
     "react": "^17.0.2",

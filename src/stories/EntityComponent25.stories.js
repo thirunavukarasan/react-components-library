@@ -4,12 +4,19 @@ import { EntityModule25 } from "../components/EntityComponents/EntityModule25/En
 export default {
   title: "Weaveroo/Entity Modules/Single/Entity Module25",
   component: EntityModule25,
+  argTypes: {
+    textalignment: {
+      options: ['left', 'center',],
+      control: { type: 'select' } // Automatically inferred when 'options' is defined
+    },
+  }
 };
 
 const Template = (args) => <EntityModule25 {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
+  textalignment: "left",
   text: "Product Features",
   showCompId: true,
   entities: [
