@@ -1,6 +1,5 @@
 import './style/tailwind.css';
 export * from './components/TestComp';
-export * from './components/Container';
 export * from './components/EntityComponents';
 export * from './components/HeroComponents';
 export * from './components/DimComponents';
@@ -9,3 +8,4 @@ export * from './components/BrandComponents';
 export * from './components/EnergyComponents';
 export * from './components/CollageComponents';
 export * from './components/BrandPolicy/Policy';
+export * from './components/Common';

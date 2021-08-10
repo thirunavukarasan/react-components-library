@@ -1,0 +1,16 @@
+.tjori01 p{
+    font-family: "Calibri", sans-serif;
+}
+
+.tjori01 h1, .tjori01 h2, .tjori01 h3, .tjori01 h4, .tjori01 h5 .tjori01 h6 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.weaverooDefault h1 , .weaverooDefault h2 .weaverooDefault h3,
+.weaverooDefault h4, .weaverooDefault h5, .weaverooDefault h6 {
+    font-family: "Poppins", sans-serif;
+}
+
+.weaverooDefault p{
+    font-family: "Poppins", sans-serif;
+}

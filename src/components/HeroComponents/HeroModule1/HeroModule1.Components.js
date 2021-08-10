@@ -11,10 +11,13 @@ export const Hero1 = (props) => {
     logoImageSrcSet,
     heroImageSizes,
     logoImageSizes,
+    HeadingfontSize,
+    textColor,
+    bgColor
   } = props;
   return (
     <>
-      <section id="weaveroo-hero-module-1" className="weaverz-ai-mx-auto">
+      <section id="weaveroo-hero-module-1" className="weaverz-ai-mx-auto" style={{backgroundColor: bgColor}}>
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
             <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center sm:weaverz-ai-w-full md:weaverz-ai-w-6/12 lg:weaverz-ai-w-6/12 xl:weaverz-ai-w-6/12 md:weaverz-ai-order-1 sm:weaverz-ai-order-2 weaverz-ai-order-2">
@@ -28,8 +31,8 @@ export const Hero1 = (props) => {
                   />
                 </div>
                 <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-bg-gray-50 weaverz-ai-p-4 weaverz-mt-4 weaverz-ai-text-center sm:weaverz-ai-text-left">
-                  <h4 className="weaverz-ai-stowe-subheading">{name}</h4>
-                  <h2 className="weaverz-ai-stowe-subheading">{brandName}</h2>
+                  <h4 className="weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: textColor}}>{name}</h4>
+                  <h2 className="weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: textColor}}>{brandName}</h2>
                 </div>
               </div>
             </div>
@@ -58,6 +61,9 @@ Hero1.propTypes = {
   logoImageSrcSet: propTypes.string,
   heroImageSizes: propTypes.string,
   logoImageSizes: propTypes.string,
+  bgColor : propTypes.string,
+  textColor:propTypes.string,
+  HeadingfontSize: propTypes.number,
 };
 
 Hero1.defaultProps = {
@@ -73,4 +79,7 @@ Hero1.defaultProps = {
     "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/96d6f2e7e1f705ab5e59c84a6dc009b2/d2b298a9d3257189d9047cdcd304715b/bd686fd640be98efaae0091fa301e613/114d7c5b964255ba1e2763837240e087.png 193w,",
   heroImageSizes: "(max-widgth: 800) 100vw, 800px",
   logoImageSizes: "(max-widgth: 193) 100vw, 193px",
+  textColor:"#393939",
+  HeadingfontSize: 20,
+  bgColor:"#ffffff"
 };

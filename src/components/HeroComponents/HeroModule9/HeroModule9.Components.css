@@ -52,3 +52,20 @@ img .header-image-div {
     height: 550px;
   }
 }
+
+@media(max-width:480px) {
+  .header-row-height h6 {
+    font-size: 30px !important;
+  }
+
+  .header-row-height p {
+    font-size: 20px !important;
+  }
+  
+}
+
+@media(max-width:320px) {
+  #weaveroo-hero-module-9 #header-image-logo {
+    right: 46px;
+  }
+}
