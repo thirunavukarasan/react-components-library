@@ -42,7 +42,7 @@ export const DoubleEntityModule3 = (props) => {
   return (
     <>
       <div id="weaveroo-DoubleEntity-module-3">
-        <div className="weaverz-ai-pt-6 weaverz-ai-overflow-hidden top-feature-1 weaverz-ai-mb-4" style={styles.bg}>
+        <div className="weaverz-ai-pt-6 weaverz-ai-overflow-hidden top-feature-1" style={styles.bg}>
           <h1 className="weaverz-ai-text-center heading" style={styles.textColor}>{text}</h1>
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap">
             {renderCards(props)}

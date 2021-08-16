@@ -26,7 +26,7 @@ export const DimensionModule5 = (props) => {
   return (
     <>
       <div id="weaveroo-dimension-module-5">
-        <div className="container weaverz-ai-mt-4">
+        <div className="container">
           <h1 className="weaverz-ai-text-center  add-top-margin weaverz-ai-font-bold">
             Dimensions
           </h1>

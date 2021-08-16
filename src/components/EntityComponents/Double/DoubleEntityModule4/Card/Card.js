@@ -18,7 +18,7 @@ const Card = (props) => {
               height:
                 props.cardLength && props.cardLength === "2"
                   ? "225px"
-                  : "175px",
+                  : "320px",
             }}
           />
         </picture>

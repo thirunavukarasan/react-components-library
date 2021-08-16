@@ -6,7 +6,7 @@ export const DoubleEntityModule2 = (props) => {
   return (
     <>
       <section id="weaveroo-DoubleEntity-module-2">
-        <div className="weaverz-ai-layout-wrap weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-two-product-Section weaverz-ai-mt-8">
+        <div className="weaverz-ai-layout-wrap weaverz-ai-mx-auto weaverz-ai-relative weaverz-ai-two-product-Section">
           {entitySet && entitySet.length === 2 ? (
             <div className="weaverz-ai-container">
               <div className="md:weaverz-ai-flex sm:weaverz-ai-block">

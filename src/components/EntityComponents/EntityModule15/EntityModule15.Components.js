@@ -135,37 +135,25 @@ EntityModule15.defaultProps = {
   keyfeatures: [
     {
       iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/296cc9a02b167493f6ff885c48ca71ff/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
+        "https://d2zymw45q71xpy.cloudfront.net/static/f58dae047fe3510d05daf227bfb7f932/a819bdb2925e0e014400955972a93376/737b2c334fb4777acc6dda63c3a5dfe7/0062d3942fa9ae9fae1b3e7e237b5c84/6c8349cc7260ae62e3b1396831a8398f/e7023ba77a45f7e84c5ee8a28dd63585.png",
       key: "Colour",
       value: "Silver & black",
     },
     {
       iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/782b37c01675f1869de8d6eb2db1656e/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
+        "https://d2zymw45q71xpy.cloudfront.net/static/f58dae047fe3510d05daf227bfb7f932/a819bdb2925e0e014400955972a93376/737b2c334fb4777acc6dda63c3a5dfe7/0062d3942fa9ae9fae1b3e7e237b5c84/6c8349cc7260ae62e3b1396831a8398f/e7023ba77a45f7e84c5ee8a28dd63585.png",
       key: "Hob type",
       value: "Electric ceramic",
     },
     {
       iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/296cc9a02b167493f6ff885c48ca71ff/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
-      key: "Colour",
-      value: "Silver & black",
-    },
-    {
-      iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/782b37c01675f1869de8d6eb2db1656e/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
+        "https://d2zymw45q71xpy.cloudfront.net/static/f58dae047fe3510d05daf227bfb7f932/a819bdb2925e0e014400955972a93376/737b2c334fb4777acc6dda63c3a5dfe7/0062d3942fa9ae9fae1b3e7e237b5c84/6c8349cc7260ae62e3b1396831a8398f/e7023ba77a45f7e84c5ee8a28dd63585.png",
       key: "Hob type",
       value: "Electric ceramic",
     },
     {
       iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/296cc9a02b167493f6ff885c48ca71ff/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
-      key: "Colour",
-      value: "Silver & black",
-    },
-    {
-      iconImage:
-        "https://d2zymw45q71xpy.cloudfront.net/static/ce65075f393b1916e66fa833cf299be0/3b721cb7a1d698d720cd1ba1c4e43a59/737b2c334fb4777acc6dda63c3a5dfe7/782b37c01675f1869de8d6eb2db1656e/cee631121c2ec9232f3a2f028ad5c89b/0392818b32472a09b84f2b13908c1243.png",
+        "https://d2zymw45q71xpy.cloudfront.net/static/f58dae047fe3510d05daf227bfb7f932/a819bdb2925e0e014400955972a93376/737b2c334fb4777acc6dda63c3a5dfe7/0062d3942fa9ae9fae1b3e7e237b5c84/6c8349cc7260ae62e3b1396831a8398f/e7023ba77a45f7e84c5ee8a28dd63585.png",
       key: "Hob type",
       value: "Electric ceramic",
     },

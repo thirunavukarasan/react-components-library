@@ -15,7 +15,7 @@ const Card = props => {
             alt={'entityItem'}
             style={{
               width: "100%",
-              height: props.cardLength && props.cardLength === "2" ? "225px" : "175px",
+              height: props.cardLength && props.cardLength === "2" ? "225px" : "320px",
             }}
           />
         </picture>

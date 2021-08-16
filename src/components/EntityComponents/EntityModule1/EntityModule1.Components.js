@@ -47,7 +47,7 @@ export const EntityModule1 = (props) => {
     <>
       <section
         id="weaveroo-entity-module-1"
-        className={`weaverz-ai-mx-auto weaverz-ai-layout-wrap lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0`}
+        className={`weaverz-ai-mx-auto weaverz-ai-layout-wrap  sm:weaverz-ai-mt-0`}
         style={styles.bg}
         hidden={orientation === "r"}
         data-comp-id={showCompId ? "entityName" : ""}
@@ -92,7 +92,7 @@ export const EntityModule1 = (props) => {
 
       <section
         id="weaveroo-entity-module-1"
-        className={`weaverz-ai-mx-auto weaverz-ai-layout-wrap lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0`}
+        className={`weaverz-ai-mx-auto weaverz-ai-layout-wrap  sm:weaverz-ai-mt-0`}
         style={styles.bg}
         hidden={orientation === "l"}
         data-comp-id={showCompId ? "entityName" : ""}

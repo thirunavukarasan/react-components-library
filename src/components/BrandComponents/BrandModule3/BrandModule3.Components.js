@@ -7,7 +7,7 @@ export const BrandModule3 = (props) => {
     <>
       <section
         id="weaveroo-brand-module-3"
-        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0"
+        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout "
       >
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">

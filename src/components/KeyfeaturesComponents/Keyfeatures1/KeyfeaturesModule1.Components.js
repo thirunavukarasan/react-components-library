@@ -23,7 +23,7 @@ export const KeyfeaturesModule1 = (props) => {
     <>
       <section
         id="weaveroo-keyfeatures-module-1"
-        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0"
+        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap"
       >
         {orientation === "l" ? (
           <div className="weaverz-ai-container" style={styles.bg}>

@@ -31,7 +31,7 @@ export const EntityModule5 = (props) => {
     <>
       <section
         id="weaveroo-entity-module-5"
-        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout lg:weaverz-ai-mt-6 sm:weaverz-ai-my-4 weaverz-ai-my-4 weaverz-ai-p-0"
+        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout weaverz-ai-p-0"
         data-comp-id={showCompId ? heading : ""}
         style={styles.bg}
       >

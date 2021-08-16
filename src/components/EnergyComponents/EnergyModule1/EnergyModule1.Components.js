@@ -8,7 +8,7 @@ export const EnergyModule1 = (props) => {
       <>
         <section
           id="weaveroo-energy-module-1"
-          class="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0"
+          class="weaverz-ai-mx-auto weaverz-ai-layout-wrap weaverz-ai-layout"
         >
           <div class="weaverz-ai-container">
             <div class="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">

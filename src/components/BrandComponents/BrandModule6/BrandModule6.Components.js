@@ -6,7 +6,7 @@ export const BrandModule6 = (props) => {
   return (
     <>
       <section id="weaveroo-brand-module-6">
-        <div className="container weaverz-ai-mt-1">
+        <div className="container">
           <div className="weaverz-ai-relative weaverz-ai-rounded-md weaverz-ai-overflow-hidden banner-container">
             <h1 className="weaverz-ai-text-center add-top-margin weaverz-ai-font-bold">
               {text}

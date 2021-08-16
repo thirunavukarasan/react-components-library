@@ -23,7 +23,7 @@ export const Hero7 = (props) => {
       backgroundImage: `url(${backgroundImage})`,
       backgroundRepeat: "no-repeat",
       backgroundPosition: "top right",
-      backgroundPositionX: `618px`,
+      backgroundPositionX: `550px`,
       backgroundColor: bgColor,
     },
     font: {

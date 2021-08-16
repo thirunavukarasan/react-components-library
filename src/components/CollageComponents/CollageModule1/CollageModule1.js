@@ -109,6 +109,7 @@ CollageModule1.propTypes = {
   bgColor: propTypes.string,
   HeadingfontSize: propTypes.number,
   ParafontSize: propTypes.number,
+  noOfColumn: propTypes.string
 };
 
 CollageModule1.defaultProps = {
@@ -119,19 +120,19 @@ CollageModule1.defaultProps = {
   entitySet: [
     {
       entityImage:
-      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/main_image/staging/TJ-MK-212-25.png",
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_1.jpg",
       entitySrcSet: "",
       entitySizes: "",
     },
     {
       entityImage:
-      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/entity_module_1/staging/TJ-MK-212-25_e_1_1.png",
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_4.jpg",
       entitySrcSet: "",
       entitySizes: "",
     },
     {
       entityImage:
-      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/entity_module_1/staging/TJ-MK-212-25_e_1_1.png",
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_3.jpg",
       entitySrcSet: "",
       entitySizes: "",
     },
@@ -140,4 +141,5 @@ CollageModule1.defaultProps = {
   textColor: "#393939",
   HeadingfontSize: 22,
   ParafontSize: 16,
+  noOfColumn : 'Three'
 };

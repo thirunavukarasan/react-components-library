@@ -145,20 +145,20 @@ CollageModule2.defaultProps = {
   showCompId: true,
   mainImage: {
     entityImage:
-      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/measurements/staging/TJ-MK-212-25_d.png",
+      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-182-01/measurements/staging/TJ-MK-182-01_d.jpg",
     entitySrcSet: "",
     entitySizes: "",
   },
   entitySet: [
     {
       entityImage:
-        "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/main_image/staging/TJ-MK-212-25.png",
+        "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-182-01/entity_module_2/staging/TJ-MK-182-01_e2_1.jpg",
       entitySrcSet: "",
       entitySizes: "",
     },
     {
       entityImage:
-        "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-212-25/entity_module_1/staging/TJ-MK-212-25_e_1_1.png",
+      "https://asset.weaveroo.io/tjori-01/Womens Apparel/TJ-MK-182-01/entity_module_2/staging/TJ-MK-182-01_e2_2.jpg",
       entitySrcSet: "",
       entitySizes: "",
     },

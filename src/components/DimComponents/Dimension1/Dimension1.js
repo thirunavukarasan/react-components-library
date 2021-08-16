@@ -17,7 +17,7 @@ export const DimensionModule1 = (props) => {
     <>
       <section
         id="weaveroo-dimension-module-1"
-        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap lg:weaverz-ai-mt-12 sm:weaverz-ai-mt-0  weaverz-ai-bg-gray-50 weaverz-ai-p-4"
+        className="weaverz-ai-mx-auto weaverz-ai-layout-wrap   weaverz-ai-bg-gray-50 weaverz-ai-p-4"
         >
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-text-center">
