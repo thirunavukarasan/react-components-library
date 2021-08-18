@@ -17,7 +17,7 @@ const Template = (args) => <Container {...args} />;
 
 export const ContainerDefault = Template.bind({});
 ContainerDefault.args = {
-  retailer : "weaverooDefault"
+  retailer : "tjori01"
 };
 
 

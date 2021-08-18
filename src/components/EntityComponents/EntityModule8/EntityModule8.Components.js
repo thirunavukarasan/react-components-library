@@ -19,7 +19,8 @@ export const EntityModule8 = (props) => {
     ParafontSize,
     objectFit,
     iconDisplay,
-    vertAlignment
+    vertAlignment,
+    orientation,
   } = props;
   const styles = {
     bg: {
@@ -28,11 +29,11 @@ export const EntityModule8 = (props) => {
     iconFilter: {
       filter: iconFilter ? `invert(1)` : "",
     },
-    align : {
+    align: {
       alignItems: "center",
       justifyContent: "center",
-      display: "flex"
-    }
+      display: "flex",
+    },
   };
   return (
     <>
@@ -42,41 +43,119 @@ export const EntityModule8 = (props) => {
           data-comp-id={showCompId ? heading : ""}
           style={styles.bg}
         >
-          <div className="weaverz-ai-container">
-            <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
-              <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
-                <div className={`${vertAlignment ? "weaverz-ai-flex" : ""} weaverz-ai-FridgeSection4-leftcontent`}>
-                  <div className={`weaverz-ai-FridgeSection4-fridge-ico weaverz-ai-mx-auto weaverz-ai-${iconDisplay}`}>
+          {orientation === "l" ? (
+            <div className="weaverz-ai-container">
+              <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
+                <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
+                  <div
+                    className={`${
+                      vertAlignment ? "weaverz-ai-flex" : ""
+                    } weaverz-ai-FridgeSection4-leftcontent`}
+                  >
+                    <div
+                      className={`weaverz-ai-FridgeSection4-fridge-ico weaverz-ai-mx-auto weaverz-ai-${iconDisplay}`}
+                    >
+                      <img
+                        src={iconImage}
+                        srcSet={iconSrcSet}
+                        sizes={iconSizes}
+                        alt={heading}
+                        style={styles.iconFilter}
+                        className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection4-icon"
+                      />
+                    </div>
+                    <h5
+                      className={`weaverz-ai-FridgeSection4-mainheading ${
+                        vertAlignment
+                          ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
+                          : ""
+                      }`}
+                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                    >
+                      {heading}
+                    </h5>
+                    <p
+                      className={`weaverz-ai-FridgeSection4-pragraph ${
+                        vertAlignment
+                          ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
+                          : ""
+                      }`}
+                      style={{ color: textColor, fontSize: ParafontSize }}
+                    >
+                      {description}
+                    </p>
+                  </div>
+                </div>
+                <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
+                  <div className="weaverz-ai-FridgeSection4-imgsec">
                     <img
-                      src={iconImage}
-                      srcSet={iconSrcSet}
-                      sizes={iconSizes}
+                      src={entityImage}
+                      srcSet={entitySrcSet}
+                      sizes={entitySizes}
                       alt={heading}
-                      style={styles.iconFilter}
-                      className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection4-icon"
+                      className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
                     />
                   </div>
-                  <h5 className={`weaverz-ai-font-opensans weaverz-ai-FridgeSection4-mainheading ${vertAlignment ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center" : ""}`} style={{color : textColor, fontSize: HeadingfontSize}}>
-                    {heading}
-                  </h5>
-                  <p className={`weaverz-ai-font-opensans weaverz-ai-FridgeSection4-pragraph ${vertAlignment ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center" : ""}`} style={{color : textColor, fontSize: ParafontSize}}>
-                    {description}
-                  </p>
-                </div>
-              </div>
-              <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
-                <div className="weaverz-ai-FridgeSection4-imgsec">
-                  <img
-                    src={entityImage}
-                    srcSet={entitySrcSet}
-                    sizes={entitySizes}
-                    alt={heading}
-                    className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
-                  />
                 </div>
               </div>
             </div>
-          </div>
+          ) : (
+            <div className="weaverz-ai-container">
+              <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
+              <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
+                  <div className="weaverz-ai-FridgeSection4-imgsec">
+                    <img
+                      src={entityImage}
+                      srcSet={entitySrcSet}
+                      sizes={entitySizes}
+                      alt={heading}
+                      className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
+                    />
+                  </div>
+                </div>
+                <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
+                  <div
+                    className={`${
+                      vertAlignment ? "weaverz-ai-flex" : ""
+                    } weaverz-ai-FridgeSection4-leftcontent`}
+                  >
+                    <div
+                      className={`weaverz-ai-FridgeSection4-fridge-ico weaverz-ai-mx-auto weaverz-ai-${iconDisplay}`}
+                    >
+                      <img
+                        src={iconImage}
+                        srcSet={iconSrcSet}
+                        sizes={iconSizes}
+                        alt={heading}
+                        style={styles.iconFilter}
+                        className="weaverz-ai-img-auto weaverz-ai-object-contain weaverz-ai-FridgeSection4-icon"
+                      />
+                    </div>
+                    <h5
+                      className={`weaverz-ai-FridgeSection4-mainheading ${
+                        vertAlignment
+                          ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
+                          : ""
+                      }`}
+                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                    >
+                      {heading}
+                    </h5>
+                    <p
+                      className={`weaverz-ai-FridgeSection4-pragraph ${
+                        vertAlignment
+                          ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
+                          : ""
+                      }`}
+                      style={{ color: textColor, fontSize: ParafontSize }}
+                    >
+                      {description}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
     </>
@@ -84,7 +163,7 @@ export const EntityModule8 = (props) => {
 };
 
 EntityModule8.propTypes = {
-  vertAlignment : propTypes.bool,
+  vertAlignment: propTypes.bool,
   objectFit: propTypes.string,
   iconDisplay: propTypes.string,
   heading: propTypes.string.isRequired,
@@ -96,6 +175,7 @@ EntityModule8.propTypes = {
   entitySrcSet: propTypes.string,
   iconSizes: propTypes.string,
   entitySizes: propTypes.string,
+  orientation: propTypes.string,
   textColor: propTypes.string,
   bgColor: propTypes.string,
   iconFilter: propTypes.bool,
@@ -104,12 +184,13 @@ EntityModule8.propTypes = {
 };
 
 EntityModule8.defaultProps = {
-  vertAlignment : false,
-  objectFit:"cover",
+  vertAlignment: false,
+  objectFit: "cover",
   iconDisplay: "flex",
   showCompId: true,
   HeadingfontSize: 20,
   ParafontSize: 16,
+  orientation: "l",
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",

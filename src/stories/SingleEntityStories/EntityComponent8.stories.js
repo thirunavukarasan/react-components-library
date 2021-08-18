@@ -13,6 +13,10 @@ export default {
       options: ['flex', 'hidden'],
       control: { type: 'select' } // Automatically inferred when 'options' is defined
     },
+    orientation:{
+      options: ['l', 'r'],
+      control: { type: 'select' } // Automatically inferred when 'options' is defined
+    }
   }
   
 };
@@ -42,5 +46,6 @@ Default.args = {
   entitySrcSet:
     "",
   iconSizes: "(max-widgth: 500) 100vw, 500px",
-  entitySizes: "(max-widgth: 500) 100vw, 500px"
+  entitySizes: "(max-widgth: 500) 100vw, 500px",
+  orientation:"l"
 };

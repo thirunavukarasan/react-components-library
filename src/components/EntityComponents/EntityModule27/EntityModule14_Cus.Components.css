@@ -1,0 +1,171 @@
+#weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe h2 {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 50px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.04;
+  letter-spacing: 1.25px;
+  text-align: left;
+  color: #1b191a;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
+  /* font-family: 'Open Sans', sans-serif; */
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.28px;
+  text-align: left;
+  color: #1c1a1a;
+  margin: 0;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-grey-bg {
+  background-color: #e6e6e6;
+  padding: 118px 80px 168px 23px !important;
+  position: relative;
+  z-index: 1;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-overflow-hidden {
+  overflow: hidden;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg {
+  background-color: #f6f6f6;
+  overflow: hidden;
+  text-align: end;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg .weaver-ai-shoe-img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
+  position: absolute;
+  top: 190px;
+  left: 80%;
+  width: 173px;
+  display: flex;
+  height: 173px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  opacity: 0.72;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-centerimg {
+  width: 145px;
+  height: 145px;
+  object-fit: contain;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe {
+  position: relative;
+  z-index: 1;
+  width: 1024px;
+  background-color: #e6e6e6;
+  margin: 0 auto;
+}
+
+#weaveroo-entity-module-14-Cus .ai-p-0 {
+  padding: 0;
+}
+
+#weaveroo-entity-module-14-Cus .weaver-ai-m-0 {
+  margin: 0;
+}
+
+@media(max-width:991px) {
+  #weaveroo-entity-module-14-Cus .weaver-ai-black-heading {
+      margin-left: 0;
+      font-size: 86px;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe {
+      width: 100%;
+  }
+}
+
+@media(max-width:800px) and (min-width:768px) {
+  #weaveroo-entity-module-14-Cus .weaver-ai-black-heading {
+      font-size: 36px !important;
+      padding: 10px 0;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe h2 {
+      font-size: 38px;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
+      left: 73%;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-mt-top40 {
+      padding-left: 15px !important;
+  }
+}
+
+@media(max-width:480px) {
+  #weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg .weaver-ai-shoe-img {
+      height: 400px;
+      /* padding-left: 20px; */
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-mt-top40 {
+      margin-top: 0px !important;
+      padding-left: 30px !important;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
+    font-size: 14px !important;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
+      top: 55%;
+      left: 30%;
+      width: 130px;
+      height: 130px;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-centerimg {
+      width: 90px;
+      height: 100%;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
+      margin-top: 8px;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-grey-bg {
+      z-index: auto;
+      padding: 20px 16px 168px 16px !important;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg {
+      position: relative;
+      margin-top: -90px;
+      overflow: hidden;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe h2 {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {}
+
+@media(max-width:320px) {
+  #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
+    top: 66%;
+  }
+}

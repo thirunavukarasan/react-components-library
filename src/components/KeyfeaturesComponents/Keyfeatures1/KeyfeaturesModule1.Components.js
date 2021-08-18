@@ -8,6 +8,7 @@ export const KeyfeaturesModule1 = (props) => {
     centerHeading,
     keyfeatures,
     bgColor,
+    textColor,
     orientation,
   } = props;
   const styles = {
@@ -33,7 +34,7 @@ export const KeyfeaturesModule1 = (props) => {
                   centerHeading ? "" : "weaverz-ai-hidden"
                 }`}
               >
-                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center">
+                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
                   {heading}
                 </h3>
               </div>
@@ -52,7 +53,7 @@ export const KeyfeaturesModule1 = (props) => {
                       centerHeading ? "weaverz-ai-hidden" : ""
                     }`}
                   >
-                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center">
+                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
                       {heading}
                     </h3>
                   </div>
@@ -71,11 +72,11 @@ export const KeyfeaturesModule1 = (props) => {
                                       className=""
                                     />
                                   </div>
-                                  <h5 className="weaverz-ai-keyfeature-key weaverz-ai-font-opensans">
+                                  <h5 className="weaverz-ai-keyfeature-key weaverz-ai-font-opensans" style={{color : textColor}}>
                                     {value.key[0].toUpperCase() +
                                       value.key.substring(1)}
                                   </h5>
-                                  <p className="weaverz-ai-keyfeature-value weaverz-ai-font-opensans">
+                                  <p className="weaverz-ai-keyfeature-value weaverz-ai-font-opensans" style={{color : textColor}}>
                                     {value.value}
                                   </p>
                                 </div>
@@ -97,7 +98,7 @@ export const KeyfeaturesModule1 = (props) => {
                   centerHeading ? "" : "weaverz-ai-hidden"
                 }`}
               >
-                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center">
+                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
                   {heading}
                 </h3>
               </div>
@@ -108,7 +109,7 @@ export const KeyfeaturesModule1 = (props) => {
                       centerHeading ? "weaverz-ai-hidden" : ""
                     }`}
                   >
-                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center">
+                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
                       {heading}
                     </h3>
                   </div>
@@ -127,11 +128,11 @@ export const KeyfeaturesModule1 = (props) => {
                                       className=""
                                     />
                                   </div>
-                                  <h5 className="weaverz-ai-keyfeature-key weaverz-ai-font-opensans">
+                                  <h5 className="weaverz-ai-keyfeature-key weaverz-ai-font-opensans" style={{color : textColor}}>
                                     {value.key[0].toUpperCase() +
                                       value.key.substring(1)}
                                   </h5>
-                                  <p className="weaverz-ai-keyfeature-value weaverz-ai-font-opensans">
+                                  <p className="weaverz-ai-keyfeature-value weaverz-ai-font-opensans" style={{color : textColor}}>
                                     {value.value}
                                   </p>
                                 </div>
@@ -163,6 +164,7 @@ export const KeyfeaturesModule1 = (props) => {
 KeyfeaturesModule1.propTypes = {
   orientation: propTypes.string,
   bgColor: propTypes.string,
+  textColor: propTypes.string,
   heading: propTypes.string,
   centerHeading: propTypes.bool,
   mainImage: propTypes.string,
@@ -220,4 +222,5 @@ KeyfeaturesModule1.defaultProps = {
     }
   ],
   bgColor: "#000000",
+  textColor:"#ffffff"
 };

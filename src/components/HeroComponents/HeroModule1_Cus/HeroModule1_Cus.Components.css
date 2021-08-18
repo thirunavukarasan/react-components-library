@@ -1,0 +1,197 @@
+#weaveroo-hero-module-1-Cus .weaverz-ai-top-electriccooker-wrap {
+  padding: 10px 0;
+}
+
+#weaveroo-hero-module-1-Cus .weaverz-ai-top-electriccooker-wrap {
+  height: 416px;
+  /* background-color: #050505; */
+}
+
+#weaveroo-hero-module-1-Cus .weaverz-ai-stowe-subheading {
+  font-size: 20px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #393939;
+  padding-bottom: 5px;
+}
+
+#weaveroo-hero-module-1-Cus .weaverz-ai-electric-brand-logo {
+  width: 222px;
+  height: 118px;
+  /* margin-left: 30px; */
+  border-radius: 13px;
+  background-color: rgb(255 255 255 / 90%);
+  background-color: rgb(255 255 255 / 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#weaveroo-hero-module-1-Cus
+  .weaverz-ai-electric-cookerimg
+  .weaverz-ai-img-auto {
+  /* width: 212px;
+    height: 396px; */
+  width: 100%;
+}
+
+#weaveroo-hero-module-1-Cus
+  .weaverz-ai-electric-brand-logo
+  .weaverz-ai-img-auto {
+  width: 200px;
+  height: 106px;
+}
+
+#weaveroo-hero-module-1-Cus .weaverz-ai-electric-right-sec {
+  width: 325px;
+  height: 156px;
+  padding: 19px 54px 4px 15px;
+  background-color: #f5f5f5;
+}
+
+#weaveroo-hero-module-1-Cus .hero1_circle {
+  height: 345px;
+  width: 345px !important;
+  max-width: 345px !important;
+  border-radius: 100%;
+  background-color: #f8eb49;
+  margin: 0 auto;
+  position: relative !important;
+  top: 0px;
+}
+
+#weaveroo-hero-module-1-Cus .hero1_Img {
+  transform: rotate(335deg);
+  position: absolute;
+  left: -9px;
+  top: -96px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 400px;
+  height: 500px;
+  max-width:none;
+}
+
+@media (max-width: 768px) {
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-right-sec {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  #weaveroo-hero-module-1-Cus .hero1_Img {
+    width: 365px;
+  }
+}
+
+@media (max-width: 480px) {
+  #weaveroo-hero-module-1-Cus .weaverz-ai-stowe-subheading {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  #weaveroo-hero-module-1-Cus .weaverz-ai-top-electriccooker-wrap {
+    height: 100%;
+    padding: 10px 0 24px;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-cookerimg {
+    padding-bottom: 24px;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-right-sec {
+    padding: 0;
+    height: 100%;
+    position: relative;
+    background: transparent;
+    margin-left: auto;
+    width: 50%;
+    margin-top: 0;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-topheading {
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  #weaveroo-hero-module-1-Cus
+    .weaverz-ai-electric-brand-logo
+    .weaverz-ai-img-auto {
+    width: 160px;
+    height: auto;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-brand-logo {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    position: absolute;
+    width: 156px;
+    height: 83px;
+    bottom: 24px;
+    left: 14px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-bottomheading {
+    font-size: 27px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.81px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  #weaveroo-hero-module-1-Cus .hero1_circle {
+    height: 300px;
+    width: 300px !important;
+    max-width: 345px !important;
+  }
+  #weaveroo-hero-module-1-Cus .hero1_Img {
+    width: 333px;
+  }
+}
+
+@media (max-width: 320px) {
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-topheading {
+    font-size: 16px;
+  }
+
+  #weaveroo-hero-module-1-Cus
+    .weaverz-ai-electric-brand-logo
+    .weaverz-ai-img-auto {
+    width: 130px;
+    height: auto;
+  }
+
+  #weaveroo-hero-module-1-Cus .weaverz-ai-electric-brand-logo {
+    width: 130px;
+    height: 83px;
+    bottom: 24px;
+    left: 14px;
+  }
+  #weaveroo-hero-module-1-Cus .hero1_circle {
+    height: 250px;
+    width: 250px !important;
+    max-width: 250px !important;
+  }
+
+  #weaveroo-hero-module-1-Cus .hero1_Img {
+    width: 269px;
+    top: -140px;
+  }
+}

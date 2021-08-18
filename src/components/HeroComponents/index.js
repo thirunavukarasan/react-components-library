@@ -1,4 +1,5 @@
 export * from './HeroModule1/HeroModule1.Components';
+export * from './HeroModule1_Cus/HeroModule1_Cus.Components';
 export * from './HeroModule2/HeroModule2.Components';
 export * from './HeroModule3/HeroModule3.Components';
 export * from './HeroModule4/HeroModule4.Components';

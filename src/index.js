@@ -8,4 +8,5 @@ export * from './components/BrandComponents';
 export * from './components/EnergyComponents';
 export * from './components/CollageComponents';
 export * from './components/BrandPolicy/Policy';
+export * from './components/TextComponent';
 export * from './components/Common';

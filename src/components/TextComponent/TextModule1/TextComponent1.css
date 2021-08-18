@@ -1,0 +1,28 @@
+#weaveroo-text-module-1 .head {
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: -0.6px;
+    text-align: left;
+  }
+
+  #weaveroo-text-module-1 .des {
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: -0.42px;
+    text-align: left;
+  }
+
+
+  @media (max-width: 480px) {
+    #weaveroo-text-module-1 .head {
+      font-size: 14px !important;
+    }
+  
+    #weaveroo-text-module-1 .des {
+      font-size: 12px !important;
+    }
+  }

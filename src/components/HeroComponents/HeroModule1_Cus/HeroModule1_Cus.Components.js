@@ -1,7 +1,7 @@
 import React from "react";
 import propTypes from "prop-types";
-import "./HeroModule1.Components.css";
-export const Hero1 = (props) => {
+import "./HeroModule1_Cus.Components.css";
+export const Hero1_Cus = (props) => {
   const {
     name,
     brandName,
@@ -13,11 +13,22 @@ export const Hero1 = (props) => {
     logoImageSizes,
     HeadingfontSize,
     textColor,
-    bgColor
+    bgColor,
+    circleColor,
+    heroImgRotation
   } = props;
+
+  let styles = {
+    circle: {
+      "background-color": `${circleColor}`,
+    },
+    heroRotation : {
+      "transform": `rotate(${heroImgRotation}deg)`,
+    }
+  }
   return (
     <>
-      <section id="weaveroo-hero-module-1" className="weaverz-ai-mx-auto" style={{backgroundColor: bgColor}}>
+      <section id="weaveroo-hero-module-1-Cus" className="weaverz-ai-mx-auto weaverz-ai-py-10" style={{backgroundColor: bgColor}}>
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
             <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center sm:weaverz-ai-w-full md:weaverz-ai-w-6/12 lg:weaverz-ai-w-6/12 xl:weaverz-ai-w-6/12 md:weaverz-ai-order-1 sm:weaverz-ai-order-2 weaverz-ai-order-2">
@@ -37,12 +48,13 @@ export const Hero1 = (props) => {
               </div>
             </div>
 
-            <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden sm:weaverz-ai-w-full md:weaverz-ai-w-6/12 lg:weaverz-ai-w-6/12 xl:weaverz-ai-w-6/12 md:weaverz-ai-order-2 sm:weaverz-ai-order-1 weaverz-ai-order-1">
+            <div className="weaverz-ai-w-full sm:weaverz-ai-w-full md:weaverz-ai-w-6/12 lg:weaverz-ai-w-6/12 xl:weaverz-ai-w-6/12 md:weaverz-ai-order-2 sm:weaverz-ai-order-1 weaverz-ai-order-1 hero1_circle" style={styles.circle}>
               <img
                 src={heroImage}
                 srcSet={heroImageSrcSet}
                 sizes={heroImageSizes}
-                className=""
+                className="hero1_Img"
+                style={styles.heroRotation}
               />
             </div>
           </div>
@@ -52,7 +64,7 @@ export const Hero1 = (props) => {
   );
 }
 
-Hero1.propTypes = {
+Hero1_Cus.propTypes = {
   name: propTypes.string.isRequired,
   brandName: propTypes.string.isRequired,
   heroImage: propTypes.string.isRequired,
@@ -64,9 +76,11 @@ Hero1.propTypes = {
   bgColor : propTypes.string,
   textColor:propTypes.string,
   HeadingfontSize: propTypes.number,
+  circleColor : propTypes.string,
+  heroImgRotation : propTypes.number,
 };
 
-Hero1.defaultProps = {
+Hero1_Cus.defaultProps = {
   name: "Belling 444410789",
   brandName: "Belling",
   heroImage:
@@ -81,5 +95,7 @@ Hero1.defaultProps = {
   logoImageSizes: "(max-widgth: 193) 100vw, 193px",
   textColor:"#393939",
   HeadingfontSize: 20,
-  bgColor:"#ffffff"
+  bgColor:"#ffffff",
+  circleColor:"#ffb405",
+  heroImgRotation: 325,
 };

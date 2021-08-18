@@ -24,6 +24,8 @@ export * from './EntityModule23/EntityModule23.Components';
 export * from './EntityModule24/EntityModule24.Components';
 export * from './EntityModule25/EntityModule25.Components';
 export * from './EntityModule26/EntityModule26.Components';
+export * from './EntityModule27/EntityModule14_Cus.Components';
+export * from './EntityModule28/EntityModule28.Components';
 export * from './Double/DoubleEntityModule1/DoubleEntityModule1';
 export * from './Double/DoubleEntityModule2/DoubleEntityModule2';
 export * from './Double/DoubleEntityModule3/EntityModule3.Components';

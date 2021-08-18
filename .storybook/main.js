@@ -6,7 +6,9 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "storybook-addon-playroom",
-    "@storybook/preset-scss"
+    "@storybook/preset-scss",
+    "storybook-addon-outline",
+    "@storybook/addon-measure"
   ],
   webpackFinal: async (config) => {
     // config.module.rules = [
