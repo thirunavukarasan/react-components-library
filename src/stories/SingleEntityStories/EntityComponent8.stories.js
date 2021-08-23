@@ -26,7 +26,7 @@ const Template = (args) => <EntityModule8 {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   vertAlignment : false,
-  objectFit:"cover",
+  objectFit:"fill",
   iconDisplay: "flex",
   showCompId: true,
   bgColor: "#f8f8f8",

@@ -14,7 +14,7 @@
 
 #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
   /* font-family: 'Open Sans', sans-serif; */
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -118,6 +118,8 @@
 @media(max-width:480px) {
   #weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg .weaver-ai-shoe-img {
       height: 400px;
+      width: 100%;
+      object-fit: fill;
       /* padding-left: 20px; */
   }
 
@@ -127,7 +129,7 @@
   }
 
   #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
-    font-size: 14px !important;
+    font-size: 16px !important;
   }
 
   #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
@@ -140,10 +142,6 @@
   #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-centerimg {
       width: 90px;
       height: 100%;
-  }
-
-  #weaveroo-entity-module-14-Cus .weaver-ai-nike-shoe p {
-      margin-top: 8px;
   }
 
   #weaveroo-entity-module-14-Cus .weaver-ai-grey-bg {
@@ -166,6 +164,10 @@
 
 @media(max-width:320px) {
   #weaveroo-entity-module-14-Cus .weaver-ai-nike-logo-center {
-    top: 66%;
+    top: 60%;
+  }
+
+  #weaveroo-entity-module-14-Cus .weaver-ai-shoe-bg .weaver-ai-shoe-img {
+    height: 290px;
   }
 }

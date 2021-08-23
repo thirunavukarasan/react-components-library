@@ -111,6 +111,11 @@
     #weaveroo-entity-module-28 .weaverz-ai-content-rightarea {
         padding: 25px 40px 30px 30px;
     }
+
+    #weaveroo-entity-module-28 .weaverz-ai-kitchen-img {
+      width: 100%;
+      height: auto;
+    }
   }
   
   @media(max-width:480px) {
@@ -119,8 +124,8 @@
     }
   
     #weaveroo-entity-module-28 .weaverz-ai-kitchen-img {
-        margin: auto;
         width: 100%;
+        height: auto;
     }
   
     #weaveroo-entity-module-28 .weaverz-ai-kitchenicon-wrap .weaverz-ai-xs-dflex {
@@ -175,7 +180,7 @@
     }
 
     #weaveroo-entity-module-28 .weaverz-ai-stowe-subheading,#weaveroo-entity-module-28 .reviewName {
-      font-size: 20px !important;
+      font-size: 24px !important;
     }
 
     #weaveroo-entity-module-28 .weaverz-ai-stowe-pragraph {

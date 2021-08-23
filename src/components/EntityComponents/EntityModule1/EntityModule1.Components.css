@@ -104,6 +104,14 @@
   }
   
   @media(max-width:480px) {
+
+    #weaveroo-entity-module-1 .weaverz-ai-stowe-subheading {
+      font-size: 24px !important;
+    }
+
+    #weaveroo-entity-module-1 .weaverz-ai-stowe-pragraph {
+      font-size: 16px !important;
+    }
     #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-wrap {
         height: 100%;
     }
@@ -111,6 +119,7 @@
     #weaveroo-entity-module-1 .weaverz-ai-kitchen-img {
         margin: auto;
         width: 100%;
+        height: 212px;
     }
   
     #weaveroo-entity-module-1 .weaverz-ai-kitchenicon-wrap .weaverz-ai-xs-dflex {

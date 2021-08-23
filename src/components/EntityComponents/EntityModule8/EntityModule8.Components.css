@@ -5,7 +5,15 @@
     height: 380px;
 }
 
-#weaveroo-entity-module-8 .weaverz-ai-FridgeSection4:after{
+#weaveroo-entity-module-8 .orderText {
+    order: 1;
+}
+
+#weaveroo-entity-module-8 .orderImg {
+    order: 2;
+}
+
+/* #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4:after{
     content:"";
     position:absolute;
     top:80px;
@@ -13,10 +21,10 @@
     width:100%;
     height:222px;
     background-color: #f6f6f7;
-}
+} */
 #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-imgsec {
     z-index: 2;
-    position: relative;
+    /* position: relative; */
     /* padding-right: 20px; */
 }
 
@@ -114,13 +122,25 @@
 }
 
 @media(max-width:480px) {
+    #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-productimg {
+        height: 232px;
+    }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 {
-        height: 482px;background-color: #e2e2e2;
+        /* height: 482px; */
+        background-color: #e2e2e2;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-imgsec {
         padding-right: 0px;
     }
-    #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-leftcontent::before {
+
+    #weaveroo-entity-module-8 .orderText {
+        order: 2 !important;
+    }
+
+    #weaveroo-entity-module-8 .orderImg {
+        order: 1 !important;
+    }
+    /* #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-leftcontent::before {
       content: '';
         position: absolute;
         top: 0;
@@ -130,26 +150,27 @@
         margin: 51px 0 60px;
         z-index: -2;
         background-color: rgb(226 226 226);
-        border-radius: 0 0 50% 50%;
-    }
+        border-radius: 0 0 0 0;
+    } */
 
-    #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-imgsec {
+    /* #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-imgsec {
         position: absolute;
         top: -20px;
-    }
+    } */
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-leftcontent::after{
         display:none;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-productimg {
         width: 100%;
         z-index: 2;
-        position: relative;
+        /* position: relative; */
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4-leftcontent{
-        position:absolute;
+        position:initial !important;
         top:309px;
         width:100%;
         height:auto;
+        padding: 10px;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4::after {
         width: 620px;
@@ -165,10 +186,13 @@
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-mainheading{
         max-width:80%;
         margin:0 auto;
+        padding-top: 0px;
+        font-size: 24px !important;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4 .weaverz-ai-FridgeSection4-pragraph{
         max-width:80%;
         margin:0 auto;
+        font-size: 16px !important;
     }
 }
 

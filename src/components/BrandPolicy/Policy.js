@@ -7,7 +7,7 @@ export const ShowMore = (props) => {
 
   return (
     <div id="weaveroo-brand-policy">
-      <div>
+      <div className="weaverz-ai-p-2">
         <input type="checkbox" className="read-more-state" id="post-1" />
         <span className="read-more-wrap">
           <p>

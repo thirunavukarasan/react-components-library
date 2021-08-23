@@ -46,6 +46,17 @@ export const EntityModule8 = (props) => {
           {orientation === "l" ? (
             <div className="weaverz-ai-container">
               <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
+              <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
+                  <div className="weaverz-ai-FridgeSection4-imgsec">
+                    <img
+                      src={entityImage}
+                      srcSet={entitySrcSet}
+                      sizes={entitySizes}
+                      alt={heading}
+                      className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
+                    />
+                  </div>
+                </div>
                 <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
                   <div
                     className={`${
@@ -86,34 +97,23 @@ export const EntityModule8 = (props) => {
                     </p>
                   </div>
                 </div>
-                <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
-                  <div className="weaverz-ai-FridgeSection4-imgsec">
-                    <img
-                      src={entityImage}
-                      srcSet={entitySrcSet}
-                      sizes={entitySizes}
-                      alt={heading}
-                      className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           ) : (
             <div className="weaverz-ai-container">
               <div className="md:weaverz-ai-flex weaverz-ai-items-center sm:weaverz-ai-block">
-              <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full">
-                  <div className="weaverz-ai-FridgeSection4-imgsec">
-                    <img
-                      src={entityImage}
-                      srcSet={entitySrcSet}
-                      sizes={entitySizes}
-                      alt={heading}
-                      className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
-                    />
+                <div className="md:weaverz-ai-w-7/12 sm:weaverz-ai-w-full orderImg">
+                    <div className="weaverz-ai-FridgeSection4-imgsec">
+                      <img
+                        src={entityImage}
+                        srcSet={entitySrcSet}
+                        sizes={entitySizes}
+                        alt={heading}
+                        className={`weaverz-ai-img-auto weaverz-ai-object-${objectFit} weaverz-ai-FridgeSection4-productimg  weaverz-ai-ml-auto`}
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto">
+                <div className="md:weaverz-ai-w-5/12 sm:weaverz-ai-w-full weaverz-ai-mx-auto orderText">
                   <div
                     className={`${
                       vertAlignment ? "weaverz-ai-flex" : ""
@@ -185,7 +185,7 @@ EntityModule8.propTypes = {
 
 EntityModule8.defaultProps = {
   vertAlignment: false,
-  objectFit: "cover",
+  objectFit: "fill",
   iconDisplay: "flex",
   showCompId: true,
   HeadingfontSize: 20,
