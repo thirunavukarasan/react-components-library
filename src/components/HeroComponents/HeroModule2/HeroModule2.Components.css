@@ -191,7 +191,7 @@
 
   #weaveroo-hero-module-2 .weaver-ai-top-banner-logo {
     position: absolute;
-    bottom: 60px;
+    bottom: 40px;
     left: 15px;
   }
 
@@ -213,7 +213,7 @@
 
   #weaveroo-hero-module-2 .weaver-ai-bottom-heading {
     right: 10px;
-    bottom: 0;
+    bottom: -10px;
     position: relative;
     width: 44%;
     float: right;

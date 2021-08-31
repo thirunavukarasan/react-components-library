@@ -4,6 +4,13 @@ import { KeyfeaturesModule1 } from "../../components/KeyfeaturesComponents/Keyfe
 export default {
   title: "Weaveroo/Keyfeatures Modules/Keyfeatures Module1",
   component: KeyfeaturesModule1,
+    // Creates specific argTypes with options
+  argTypes: {
+    headingStyle: {
+      options: ['normal', 'italic'],
+      control: { type: 'select' } // Automatically inferred when 'options' is defined
+    },
+  },
 };
 
 const Template = (args) => <KeyfeaturesModule1 {...args} />;
@@ -12,6 +19,7 @@ export const Default = Template.bind({});
 Default.args = {
   centerHeading: false,
   heading: "Key Features",
+  headingStyle: "normal",
   mainImage:
     "http://weaver-ai-template-syndication-poc.s3-website.ap-south-1.amazonaws.com/static/electric_ceramic_1-ec2035f078782b3fa0bfee0e7c33882b.png",
   keyfeatures: [

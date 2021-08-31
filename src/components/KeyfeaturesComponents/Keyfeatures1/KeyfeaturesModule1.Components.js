@@ -10,6 +10,7 @@ export const KeyfeaturesModule1 = (props) => {
     bgColor,
     textColor,
     orientation,
+    headingStyle
   } = props;
   const styles = {
     bg: {
@@ -34,7 +35,7 @@ export const KeyfeaturesModule1 = (props) => {
                   centerHeading ? "" : "weaverz-ai-hidden"
                 }`}
               >
-                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
+                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor,fontStyle:headingStyle}}>
                   {heading}
                 </h3>
               </div>
@@ -53,7 +54,7 @@ export const KeyfeaturesModule1 = (props) => {
                       centerHeading ? "weaverz-ai-hidden" : ""
                     }`}
                   >
-                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
+                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor,fontStyle:headingStyle}}>
                       {heading}
                     </h3>
                   </div>
@@ -98,7 +99,7 @@ export const KeyfeaturesModule1 = (props) => {
                   centerHeading ? "" : "weaverz-ai-hidden"
                 }`}
               >
-                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
+                <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor,fontStyle:headingStyle}}>
                   {heading}
                 </h3>
               </div>
@@ -109,7 +110,7 @@ export const KeyfeaturesModule1 = (props) => {
                       centerHeading ? "weaverz-ai-hidden" : ""
                     }`}
                   >
-                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor}}>
+                    <h3 className="weaverz-ai-keyfeature-heading weaverz-ai-font-opensans weaverz-ai-text-center" style={{color : textColor,fontStyle:headingStyle}}>
                       {heading}
                     </h3>
                   </div>
@@ -166,6 +167,7 @@ KeyfeaturesModule1.propTypes = {
   bgColor: propTypes.string,
   textColor: propTypes.string,
   heading: propTypes.string,
+  headingStyle: propTypes.string,
   centerHeading: propTypes.bool,
   mainImage: propTypes.string,
   keyfeatures: propTypes.arrayOf(
@@ -181,6 +183,7 @@ KeyfeaturesModule1.defaultProps = {
   orientation: "l",
   centerHeading: false,
   heading: "Key Features",
+  headingStyle: "normal",
   mainImage:
     "https://weaver-ai-template-syndication-poc.s3.ap-south-1.amazonaws.com/static/electric_ceramic_1-ec2035f078782b3fa0bfee0e7c33882b.png",
   keyfeatures: [

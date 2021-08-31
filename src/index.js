@@ -10,3 +10,4 @@ export * from './components/CollageComponents';
 export * from './components/BrandPolicy/Policy';
 export * from './components/TextComponent';
 export * from './components/Common';
+export * from './components/ImageComponents';
