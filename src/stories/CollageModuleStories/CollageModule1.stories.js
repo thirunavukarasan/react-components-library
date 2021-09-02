@@ -16,6 +16,9 @@ export default {
 const Template = (args) => <CollageModule1 {...args} />;
 
 export const CollageModule1Default = Template.bind({});
+export const CollageModule1TwoImg = Template.bind({});
+export const CollageModule1FourImg = Template.bind({});
+
 CollageModule1Default.args = {
   noOfColumn:"Three",
   heading: "Save time with easy cleaning",
@@ -49,3 +52,66 @@ CollageModule1Default.args = {
 };
 
 
+CollageModule1TwoImg.args = {
+  noOfColumn:"Two",
+  heading: "",
+  description:
+    "",
+  showCompId: true,
+  entitySet: [
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_1.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    },
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_4.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    }
+  ],
+  bgColor: "#f8f8f8",
+  textColor: "#393939",
+  HeadingfontSize: 22,
+  ParafontSize: 16,
+};
+
+CollageModule1FourImg.args = {
+  noOfColumn:"Two",
+  heading: "",
+  description:
+    "",
+  showCompId: true,
+  entitySet: [
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_1.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    },
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_4.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    },
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_3.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    },
+    {
+      entityImage:
+      "https://asset.weaveroo.io/tjori-01/Mens Apparel/TJ-MW-08-05/entity_module_2/staging/TJ-MW-08-05_e2_4.jpg",
+      entitySrcSet: "",
+      entitySizes: "",
+    },
+  ],
+  bgColor: "#f8f8f8",
+  textColor: "#393939",
+  HeadingfontSize: 22,
+  ParafontSize: 16,
+};

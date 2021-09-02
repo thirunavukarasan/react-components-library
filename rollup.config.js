@@ -12,7 +12,8 @@ export default [
         output : [
             {
                 dir: "dist",
-                format: "cjs",
+                format: "es",
+                exports: "named",
                 sourcemap: true,
                 preserveModules: true
             }

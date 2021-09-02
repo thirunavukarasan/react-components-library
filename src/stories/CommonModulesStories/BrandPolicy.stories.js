@@ -8,8 +8,8 @@ export default {
 
 const Template = (args) => <ShowMore {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {
+export const ShowMoreDefault = Template.bind({});
+ShowMoreDefault.args = {
   brandName: "Grundig 7294846331",
 };
 

@@ -171,6 +171,7 @@
         width:100%;
         height:auto;
         padding: 10px;
+        display:block;
     }
     #weaveroo-entity-module-8 .weaverz-ai-FridgeSection4::after {
         width: 620px;

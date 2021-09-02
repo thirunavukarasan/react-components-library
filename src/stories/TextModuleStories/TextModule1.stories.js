@@ -15,8 +15,8 @@ export default {
 
 const Template = (args) => <TextModule1 {...args} />;
 
-export const CollageModule1Default = Template.bind({});
-CollageModule1Default.args = {
+export const TextDefault = Template.bind({});
+TextDefault.args = {
   heading: "Save time with easy cleaning",
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",
