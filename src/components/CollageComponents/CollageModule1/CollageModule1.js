@@ -12,6 +12,7 @@ export const CollageModule1 = (props) => {
     HeadingfontSize,
     ParafontSize,
     noOfColumn,
+    textSectionIshow
   } = props;
   const styles = {
     bg: {
@@ -52,7 +53,7 @@ export const CollageModule1 = (props) => {
                 </div>
               );
             })}
-            <div className="weaverz-ai-px-2">
+            <div className="weaverz-ai-px-2" style = {{display: textSectionIshow ? "" : "none"}}>
               <h1 style={styles.heading} className="head">
                 {heading}
               </h1>
@@ -79,7 +80,7 @@ export const CollageModule1 = (props) => {
                 </div>
               );
             })}
-            <div className="weaverz-ai-px-2">
+            <div className="weaverz-ai-px-2" style = {{display: textSectionIshow ? "" : "none"}}>
               <h1 style={styles.heading} className="head">
                 {heading}
               </h1>
@@ -109,7 +110,8 @@ CollageModule1.propTypes = {
   bgColor: propTypes.string,
   HeadingfontSize: propTypes.number,
   ParafontSize: propTypes.number,
-  noOfColumn: propTypes.string
+  noOfColumn: propTypes.string,
+  textSectionIshow : propTypes.bool
 };
 
 CollageModule1.defaultProps = {
@@ -141,5 +143,6 @@ CollageModule1.defaultProps = {
   textColor: "#393939",
   HeadingfontSize: 22,
   ParafontSize: 16,
-  noOfColumn : 'Three'
+  noOfColumn : 'Three',
+  textSectionIshow : true
 };

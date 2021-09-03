@@ -26,19 +26,22 @@
 #weaveroo-collage-module-2 .collage-main-l-img {
   display: block;
   /* margin: 0px auto; */
-  height: 700px;
+  height: 708px;
   width: 100%;
 }
 
-#weaveroo-collage-module-2 .collage-img {
+#weaveroo-collage-module-2 .collage-img-r {
   height: 100%;
 }
 
+#weaveroo-collage-module-2 .collage-img-l {
+  height: 100%;
+  width: 100%;
+}
 
 @media (max-width: 480px) {
   #weaveroo-collage-module-2 .collage-main-img ,#weaveroo-collage-module-2 .collage-main-l-img{
     display: block;
-    /* margin: 0px auto; */
     height: 500px;
     object-fit: fill !important;
     width: 100%;

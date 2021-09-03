@@ -49,12 +49,13 @@ CollageModule2Default.args = {
   HeadingfontSize: 22,
   ParafontSize: 16,
   orientation: "r",
+  textSectionIshow: true
 };
 
 CollageModule2ImgRight.args = {
-  heading: "",
+  heading: "Save time with easy cleaning",
   description:
-    "",
+    "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",
   showCompId: true,
   mainImage: {
     entityImage:
@@ -85,9 +86,9 @@ CollageModule2ImgRight.args = {
 
 
 CollageModule2ImgLeft.args = {
-  heading: "",
+  heading: "Save time with easy cleaning",
   description:
-    "",
+    "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",
   showCompId: true,
   mainImage: {
     entityImage:
