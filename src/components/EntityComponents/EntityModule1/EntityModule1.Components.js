@@ -14,7 +14,9 @@ export const EntityModule1 = (props) => {
     orientation,
     showCompId,
     bgColor,
-    textColor,
+    headingtextColor,
+    paratextColor,
+    iconBgColor,
     iconFilter,
     HeadingfontSize,
     ParafontSize,
@@ -26,7 +28,8 @@ export const EntityModule1 = (props) => {
       backgroundColor: bgColor ? bgColor : "#f8f8f8",
     },
     iconFilter : {
-      filter: iconFilter ? `invert(1)` : ""
+      filter: iconFilter ? `invert(1)` : "",
+      backgroundColor: iconBgColor ? iconBgColor : ""
     },
     iconDisplay:{
       display: iconShow ? "" : "none"
@@ -75,12 +78,12 @@ export const EntityModule1 = (props) => {
                   />
                 </div>
                 <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                  <h4 className="weaverz-ai-font-opensans weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: textColor}}>
+                  <h4 className="weaverz-ai-font-opensans weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: headingtextColor}}>
                     {heading}
                   </h4>
                 </div>
                 <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                  <p className="weaverz-ai-font-opensans weaverz-ai-stowe-pragraph" style={{fontSize: ParafontSize ? `${ParafontSize}px` : "16px", color: textColor}}>
+                  <p className="weaverz-ai-font-opensans weaverz-ai-stowe-pragraph" style={{fontSize: ParafontSize ? `${ParafontSize}px` : "16px", color: paratextColor}}>
                     {description}
                   </p>
                 </div>
@@ -111,12 +114,12 @@ export const EntityModule1 = (props) => {
                   />
                 </div>
                 <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                  <h4 className="weaverz-ai-font-opensans weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: textColor}}>
+                  <h4 className="weaverz-ai-font-opensans weaverz-ai-stowe-subheading" style={{fontSize: HeadingfontSize ? `${HeadingfontSize}px` :  "20px" , color: headingtextColor}}>
                     {heading}
                   </h4>
                 </div>
                 <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden">
-                  <p className="weaverz-ai-font-opensans weaverz-ai-stowe-pragraph" style={{fontSize: ParafontSize ? `${ParafontSize}px` : "16px", color: textColor}}>
+                  <p className="weaverz-ai-font-opensans weaverz-ai-stowe-pragraph" style={{fontSize: ParafontSize ? `${ParafontSize}px` : "16px", color: paratextColor}}>
                     {description}
                   </p>
                 </div>
@@ -152,7 +155,9 @@ EntityModule1.propTypes = {
   entitySrcSet: propTypes.string,
   iconSizes: propTypes.string,
   entitySizes: propTypes.string,
-  textColor:propTypes.string,
+  headingtextColor: propTypes.string,
+  paratextColor:propTypes.string,
+  iconBgColor: propTypes.string,
   bgColor : propTypes.string,
   iconFilter: propTypes.bool,
   HeadingfontSize: propTypes.number,
@@ -180,7 +185,9 @@ EntityModule1.defaultProps = {
   iconSizes: "(max-widgth: 500) 100vw, 500px",
   entitySizes: "(max-widgth: 500) 100vw, 500px",
   bgColor : "#f8f8f8",
-  textColor : "#393939",
+  headingtextColor: "#393939",
+  paratextColor : "#393939",
+  iconBgColor: "",
   iconFilter : false
 
 };

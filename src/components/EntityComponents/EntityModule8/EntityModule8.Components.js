@@ -13,7 +13,9 @@ export const EntityModule8 = (props) => {
     entitySizes,
     showCompId,
     bgColor,
-    textColor,
+    headingtextColor,
+    paratextColor,
+    iconBgColor,    
     iconFilter,
     HeadingfontSize,
     ParafontSize,
@@ -65,6 +67,7 @@ export const EntityModule8 = (props) => {
                   >
                     <div
                       className={`weaverz-ai-FridgeSection4-fridge-ico weaverz-ai-mx-auto weaverz-ai-${iconDisplay}`}
+                      style={{backgroundColor:iconBgColor}}
                     >
                       <img
                         src={iconImage}
@@ -81,7 +84,7 @@ export const EntityModule8 = (props) => {
                           ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
                           : ""
                       }`}
-                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                      style={{ color: headingtextColor, fontSize: HeadingfontSize }}
                     >
                       {heading}
                     </h5>
@@ -91,7 +94,7 @@ export const EntityModule8 = (props) => {
                           ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
                           : ""
                       }`}
-                      style={{ color: textColor, fontSize: ParafontSize }}
+                      style={{ color: paratextColor, fontSize: ParafontSize }}
                     >
                       {description}
                     </p>
@@ -121,6 +124,7 @@ export const EntityModule8 = (props) => {
                   >
                     <div
                       className={`weaverz-ai-FridgeSection4-fridge-ico weaverz-ai-mx-auto weaverz-ai-${iconDisplay}`}
+                      style={{backgroundColor:iconBgColor}}
                     >
                       <img
                         src={iconImage}
@@ -137,7 +141,7 @@ export const EntityModule8 = (props) => {
                           ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
                           : ""
                       }`}
-                      style={{ color: textColor, fontSize: HeadingfontSize }}
+                      style={{ color: headingtextColor, fontSize: HeadingfontSize }}
                     >
                       {heading}
                     </h5>
@@ -147,7 +151,7 @@ export const EntityModule8 = (props) => {
                           ? "weaverz-ai-flex weaverz-ai-items-center weaverz-ai-justify-center"
                           : ""
                       }`}
-                      style={{ color: textColor, fontSize: ParafontSize }}
+                      style={{ color: paratextColor, fontSize: ParafontSize }}
                     >
                       {description}
                     </p>
@@ -176,7 +180,9 @@ EntityModule8.propTypes = {
   iconSizes: propTypes.string,
   entitySizes: propTypes.string,
   orientation: propTypes.string,
-  textColor: propTypes.string,
+  headingtextColor: propTypes.string,
+  paratextColor:propTypes.string,  
+  iconBgColor: propTypes.string,
   bgColor: propTypes.string,
   iconFilter: propTypes.bool,
   HeadingfontSize: propTypes.number,
@@ -205,6 +211,8 @@ EntityModule8.defaultProps = {
   iconSizes: "(max-widgth: 500) 100vw, 500px",
   entitySizes: "(max-widgth: 500) 100vw, 500px",
   bgColor: "#f8f8f8",
-  textColor: "#393939",
+  headingtextColor: "#393939",
+  paratextColor : "#393939",
+  iconBgColor: "",
   iconFilter: false,
 };
