@@ -21,7 +21,8 @@ TextDefault.args = {
   description:
     "With the easy-clean lining, you can spend less time removing grease and dirt from your appliance. That way, you can utilise the saved time for creating culinary masterpieces.",
   bgColor: "#ffffff",
-  textColor: "#393939",
+  headingtextColor: "#393939",
+  paratextColor : "#393939",
   HeadingfontSize: 22,
   ParafontSize: 16,
   textAlign: "center",
