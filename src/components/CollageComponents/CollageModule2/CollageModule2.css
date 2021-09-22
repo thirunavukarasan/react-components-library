@@ -1,4 +1,4 @@
-#weaveroo-collage-module-2 .head {
+.weaveroo-collage-module-2 .head {
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -7,7 +7,7 @@
   text-align: left;
 }
 
-#weaveroo-collage-module-2 .des {
+.weaveroo-collage-module-2 .des {
   font-weight: 400;
   font-stretch: normal;
   font-style: normal;
@@ -16,48 +16,48 @@
   text-align: left;
 }
 
-#weaveroo-collage-module-2 .collage-main-img {
+.weaveroo-collage-module-2 .collage-main-img {
   display: block;
   margin: 0px auto;
   height: 800px;
   width: 100%;
 }
 
-#weaveroo-collage-module-2 .collage-main-l-img {
+.weaveroo-collage-module-2 .collage-main-l-img {
   display: block;
   /* margin: 0px auto; */
   height: 708px;
   width: 100%;
 }
 
-#weaveroo-collage-module-2 .collage-img-r {
+.weaveroo-collage-module-2 .collage-img-r {
   height: 100%;
 }
 
-#weaveroo-collage-module-2 .collage-img-l {
+.weaveroo-collage-module-2 .collage-img-l {
   height: 100%;
   width: 100%;
 }
 
 @media (max-width: 480px) {
-  #weaveroo-collage-module-2 .collage-main-img ,#weaveroo-collage-module-2 .collage-main-l-img{
+  .weaveroo-collage-module-2 .collage-main-img ,.weaveroo-collage-module-2 .collage-main-l-img{
     display: block;
     height: 500px;
     object-fit: fill !important;
     width: 100%;
   }
 
-  #weaveroo-collage-module-2 .head {
+  .weaveroo-collage-module-2 .head {
     font-size: 14px !important;
   }
 
-  #weaveroo-collage-module-2 .des {
+  .weaveroo-collage-module-2 .des {
     font-size: 12px !important;
   }
 }
 
 @media (max-width: 326px) {
-  #weaveroo-collage-module-2 .collage-main-img, #weaveroo-collage-module-2 .collage-main-l-img {
+  .weaveroo-collage-module-2 .collage-main-img, .weaveroo-collage-module-2 .collage-main-l-img {
     display: block;
     /* margin: 0px auto; */
     height: 400px;

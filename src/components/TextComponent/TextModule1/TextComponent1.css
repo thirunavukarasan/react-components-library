@@ -1,4 +1,4 @@
-#weaveroo-text-module-1 .head {
+.weaveroo-text-module-1 .head {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -7,7 +7,7 @@
     text-align: left;
   }
 
-  #weaveroo-text-module-1 .des {
+  .weaveroo-text-module-1 .des {
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -18,11 +18,11 @@
 
 
   @media (max-width: 480px) {
-    #weaveroo-text-module-1 .head {
+    .weaveroo-text-module-1 .head {
       font-size: 24px !important;
     }
   
-    #weaveroo-text-module-1 .des {
+    .weaveroo-text-module-1 .des {
       font-size: 16px !important;
     }
   }

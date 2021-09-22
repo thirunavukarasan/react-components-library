@@ -11,13 +11,13 @@
   src: url("../../asset/fonts/advent-Bd1.otf") format("opentype");
 } */
 
-#weaveroo-entity-module-14-Cus *,
-#weaveroo-entity-module-14-Cus ::after,
-#weaveroo-entity-module-14-Cus ::before {
+.weaveroo-entity-module-14-Cus *,
+.weaveroo-entity-module-14-Cus ::after,
+.weaveroo-entity-module-14-Cus ::before {
   box-sizing: border-box;
 }
 
-#weaveroo-entity-module-14-Cus img {
+.weaveroo-entity-module-14-Cus img {
   display: inline;
   max-width: none !important;
   height: auto;
@@ -25,7 +25,7 @@
   border-style: none;
 }
 
-#weaveroo-entity-module-14-Cus .weaver-ai-container {
+.weaveroo-entity-module-14-Cus .weaver-ai-container {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -34,7 +34,7 @@
 }
 
 @media (min-width: 576px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container {
     max-width: 540px;
   }
 }
@@ -46,22 +46,22 @@
 }
 
 @media (min-width: 992px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container {
     max-width: 1140px;
   }
 }
 
-#weaveroo-entity-module-14-Cus .weaver-ai-container-fluid,
-#weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
-#weaveroo-entity-module-14-Cus .weaver-ai-container-md,
-#weaveroo-entity-module-14-Cus .weaver-ai-container-sm,
-#weaveroo-entity-module-14-Cus .weaver-ai-container-xl {
+.weaveroo-entity-module-14-Cus .weaver-ai-container-fluid,
+.weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
+.weaveroo-entity-module-14-Cus .weaver-ai-container-md,
+.weaveroo-entity-module-14-Cus .weaver-ai-container-sm,
+.weaveroo-entity-module-14-Cus .weaver-ai-container-xl {
   width: 100%;
   padding-right: 0;
   padding-left: 0;
@@ -70,25 +70,25 @@
 }
 
 @media (min-width: 576px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-md,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-md,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-md,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-md,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-sm {
     max-width: 1000px;
     padding: 0 23px;
     margin: 0 auto;
@@ -96,16 +96,16 @@
 }
 
 @media (min-width: 1200px) {
-  #weaveroo-entity-module-14-Cus .weaver-ai-container,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-md,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-sm,
-  #weaveroo-entity-module-14-Cus .weaver-ai-container-xl {
+  .weaveroo-entity-module-14-Cus .weaver-ai-container,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-lg,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-md,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-sm,
+  .weaveroo-entity-module-14-Cus .weaver-ai-container-xl {
     max-width: 1140px;
   }
 }
 
-#weaveroo-entity-module-14-Cus .weaver-ai-row {
+.weaveroo-entity-module-14-Cus .weaver-ai-row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -114,83 +114,83 @@
   margin-left: -15px;
 }
 
-#weaveroo-entity-module-14-Cus .weaver-ai-col,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-1,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-10,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-11,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-12,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-2,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-3,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-4,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-5,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-6,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-7,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-8,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-9,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-auto,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-1,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-10,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-11,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-12,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-2,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-3,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-4,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-5,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-6,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-7,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-8,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-9,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-lg-auto,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-1,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-10,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-11,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-12,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-2,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-3,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-4,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-5,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-6,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-7,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-8,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-9,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-md-auto,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-1,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-10,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-11,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-12,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-2,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-3,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-4,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-5,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-6,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-7,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-8,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-9,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-sm-auto,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-1,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-10,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-11,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-12,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-2,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-3,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-4,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-5,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-6,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-7,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-8,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-9,
-#weaveroo-entity-module-14-Cus .weaver-ai-col-xl-auto {
+.weaveroo-entity-module-14-Cus .weaver-ai-col,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-1,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-10,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-11,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-12,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-2,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-3,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-4,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-5,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-6,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-7,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-8,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-9,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-auto,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-1,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-10,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-11,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-12,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-2,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-3,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-4,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-5,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-6,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-7,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-8,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-9,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-lg-auto,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-1,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-10,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-11,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-12,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-2,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-3,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-4,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-5,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-6,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-7,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-8,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-9,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-md-auto,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-1,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-10,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-11,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-12,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-2,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-3,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-4,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-5,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-6,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-7,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-8,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-9,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-sm-auto,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-1,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-10,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-11,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-12,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-2,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-3,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-4,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-5,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-6,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-7,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-8,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-9,
+.weaveroo-entity-module-14-Cus .weaver-ai-col-xl-auto {
   position: relative;
   width: 100%;
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
 
-#weaveroo-entity-module-14-Cus .weaver-ai-col {
+.weaveroo-entity-module-14-Cus .weaver-ai-col {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -ms-flex-positive: 1;

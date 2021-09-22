@@ -13,31 +13,26 @@ export default [
             {
                 dir: "dist",
                 format: "es",
-                exports: "named",
+                // exports: "named",
                 sourcemap: true,
-                preserveModules: true
+                // preserveModules: true
             }
         ],
         plugins: [
+            external(),
             resolve(),
             babel({
                 babelHelpers: 'bundled' ,
                 exclude : 'node_modules/**',
                 presets : ['@babel/preset-react'],
-                // sourceType: 'unambiguous'
             }),
-            commonjs({
-                include: [
-                   "./index.js", /node_modules\/prop-types/,/node_modules\/react/
-                ]
-            }),
+            commonjs(),
             postcss({
                 plugins:[],
                 minimize:true,
                 extract: true,
                 // modules: true
             }),
-            external(),
             terser(),
             image()
         ]

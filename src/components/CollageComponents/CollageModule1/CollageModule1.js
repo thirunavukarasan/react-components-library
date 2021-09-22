@@ -31,8 +31,8 @@ export const CollageModule1 = (props) => {
   return (
     <>
       <section
-        id="weaveroo-collage-module-1"
         style={styles.bg}
+        className="weaveroo-collage-module-1"
         data-comp-id={showCompId ? "entityName" : ""}
       >
         {noOfColumn === "Three" ? (

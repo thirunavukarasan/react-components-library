@@ -1,13 +1,13 @@
-#weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
+.weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
   padding: 10px 0;
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
+.weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
   height: 416px;
   /* background-color: #050505; */
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-stowe-subheading {
+.weaveroo-hero-module-1 .weaverz-ai-stowe-subheading {
   font-size: 20px;
   font-weight: 700;
   font-stretch: normal;
@@ -19,7 +19,7 @@
   padding-bottom: 5px;
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
+.weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
   width: 222px;
   height: 118px;
   /* margin-left: 30px; */
@@ -31,18 +31,18 @@
   justify-content: center;
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-electric-cookerimg .weaverz-ai-img-auto {
+.weaveroo-hero-module-1 .weaverz-ai-electric-cookerimg .weaverz-ai-img-auto {
   /* width: 212px;
     height: 396px; */
   width: 100%;
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
+.weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
   width: 200px;
   height: 106px;
 }
 
-#weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
+.weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
   width: 325px;
   height: 156px;
   padding: 19px 54px 4px 15px;
@@ -50,7 +50,7 @@
 }
 
 @media (max-width: 768px) {
-  #weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
     width: 100%;
     padding-right: 0;
   }
@@ -58,20 +58,20 @@
 
 @media (max-width: 480px) {
 
-  #weaveroo-hero-module-1 .weaverz-ai-stowe-subheading {
+  .weaveroo-hero-module-1 .weaverz-ai-stowe-subheading {
     font-size: 20px !important;
     text-align: center;
   }
-  #weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
+  .weaveroo-hero-module-1 .weaverz-ai-top-electriccooker-wrap {
     height: 100%;
     padding: 10px 0 24px;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-cookerimg {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-cookerimg {
     padding-bottom: 24px;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-right-sec {
     padding: 0;
     height: 100%;
     position: relative;
@@ -81,7 +81,7 @@
     margin-top: 0;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-topheading {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-topheading {
     font-size: 20px;
     font-weight: 600;
     font-stretch: normal;
@@ -92,12 +92,12 @@
     color: #ffffff;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
     width: 160px;
     height: auto;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
     margin-bottom: 30px;
     margin-top: 15px;
     position: absolute;
@@ -111,7 +111,7 @@
     justify-content: center;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-bottomheading {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-bottomheading {
     font-size: 27px;
     font-weight: 300;
     font-stretch: normal;
@@ -124,16 +124,16 @@
 }
 
 @media (max-width: 320px) {
-  #weaveroo-hero-module-1 .weaverz-ai-electric-topheading {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-topheading {
     font-size: 16px;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo .weaverz-ai-img-auto {
     width: 130px;
     height: auto;
   }
 
-  #weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
+  .weaveroo-hero-module-1 .weaverz-ai-electric-brand-logo {
     width: 130px;
     height: 83px;
     bottom: 24px;

@@ -17,7 +17,7 @@ export const Hero1 = (props) => {
   } = props;
   return (
     <>
-      <section id="weaveroo-hero-module-1" className="weaverz-ai-mx-auto" style={{backgroundColor: bgColor}}>
+      <section  className="weaveroo-hero-module-1 weaverz-ai-mx-auto" style={{backgroundColor: bgColor}}>
         <div className="weaverz-ai-container">
           <div className="weaverz-ai-flex weaverz-ai-flex-wrap weaverz-ai-overflow-hidden">
             <div className="weaverz-ai-w-full weaverz-ai-overflow-hidden weaverz-ai-self-center sm:weaverz-ai-w-full md:weaverz-ai-w-6/12 lg:weaverz-ai-w-6/12 xl:weaverz-ai-w-6/12 md:weaverz-ai-order-1 sm:weaverz-ai-order-2 weaverz-ai-order-2">

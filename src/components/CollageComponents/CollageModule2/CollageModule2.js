@@ -36,7 +36,7 @@ export const CollageModule2 = (props) => {
   return (
     <>
       <section
-        id="weaveroo-collage-module-2"
+        className="weaveroo-collage-module-2"
         style={styles.bg}
         data-comp-id={showCompId ? "entityName" : ""}
       >

@@ -11,7 +11,7 @@ export const TextModule1 = (props) => {
 
   return (
     <>
-      <section id="weaveroo-text-module-1" className={``} style={styles.bg}>
+      <section  className={`weaveroo-text-module-1`} style={styles.bg}>
         <div className={`weaverz-ai-w-full weaverz-ai-overflow-hidden`} style={{padding:`${padding}px`}}>
           <h1 style={{fontSize:HeadingfontSize,color:headingtextColor,textAlign:textAlign}} className="head">
             {heading}

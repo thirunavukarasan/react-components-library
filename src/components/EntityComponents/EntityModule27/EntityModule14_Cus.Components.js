@@ -22,7 +22,7 @@ export const EntityModule14_Cus = (props) => {
 
   return (
     <>
-      <div id="weaveroo-entity-module-14-Cus">
+      <div className="weaveroo-entity-module-14-Cus">
       <section class="weaver-ai-nike-shoe weaver-ai-p-0" data-comp-id={showCompId}>
           <div class="weaver-ai-container-fluid">
             <div class="weaver-ai-row weaver-ai-m-0">
