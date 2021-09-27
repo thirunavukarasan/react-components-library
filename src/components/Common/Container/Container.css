@@ -10,7 +10,7 @@
 .weaveroo-ai-container {
     width: 1024px;
     margin: auto;
-    height: 75px;
+    height: 100%;
 }
 
 @media (min-width: 768px) {

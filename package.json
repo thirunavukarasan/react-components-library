@@ -1,6 +1,6 @@
 {
   "name": "weaveroo-components",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "description": "Weaveroo React component library using Rollup,JS,Sass,Css,Tailwind and Storybook with Playroom",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -17,7 +17,8 @@
     "test": "craco test",
     "build-lib:dev": "rm -rf dist && rollup -c && npm run build:style",
     "build-lib:prod": "rm -rf dist && rollup -c --environment INCLUDE_DEPS,BUILD:production && npm run build:style",
-    "build:style": "tailwindcss build -i src/style/tailwind.css -o dist/tailwind.css"
+    "build:style": "tailwindcss build -i src/style/tailwind.css -o dist/tailwind.css",
+    "publish:asset": "aws s3 cp dist s3://weaver-testing/component-lib/ --recursive --exclude '*' --include '*.css'"
   },
   "keywords": [
     "React",
