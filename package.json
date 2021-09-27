@@ -16,8 +16,9 @@
     "build": "craco build",
     "test": "craco test",
     "build-lib:dev": "rm -rf dist && rollup -c && npm run build:style",
-    "build-lib:prod": "rm -rf dist && rollup -c --environment INCLUDE_DEPS,BUILD:production && npm run build:style",
-    "build:style": "tailwindcss build -i src/style/tailwind.css -o dist/tailwind.css"
+    "build-lib:prod": "rm -rf dist && rollup -c --environment INCLUDE_DEPS,BUILD:production && npm run build:style && publish:asset",
+    "build:style": "tailwindcss build -i src/style/tailwind.css -o dist/tailwind.css",
+    "publish:asset": "aws s3 cp dist s3://weaver-testing/component-lib/ --recursive --exclude '*' --include '*.css'"
   },
   "keywords": [
     "React",
